@@ -16,7 +16,15 @@ The power supply circuitry will be protected as much as possible from electrosta
 
 Efficiencies have not yet been determined, but the goal is to approach at least ~80% without using any specialized, high-efficiency, components.
 
-A rough sketch of the front high side supply circuit so far:
+Components for the power supply may come from new stock or salvaged electronics made from around 1980 and after. 
+
+**IMPORTANT** **: *The reuse of old-stock electrolytic capacitors, especially from the 1990s, is strongly discouraged for safety reasons. Ceramic capacitors should be inspected for cracks and large capacitance variations (a sign of internal shorting). All components should be thoroughly tested for faults before being reused***
+
+**Electricity is dangerous and the author is not responsible for any damage to property, injuries, or worse, which may be caused by using any of the information presented here.**
+
+In any area of the power supply where a microcontroller can be used, but not available or undesired for any reason, a configurable timing chip, such as the 555 or 556 IC, may be used with additional passive components to regulate the pulse-width-modulated (PWM) output and to limit the input voltage to levels the IC can tolerate. There is greater salvage and reuse potential with timing chips as opposed to microcontrollers which may be more precise, however microcontrollers require additional infastructure, some propietary, to program and configure initially. There is a tradeoff with both options.
+
+A rough sketch of the high side constant voltage supply circuit so far:
 ```
  +10V-52V
      |                     { D G S }
@@ -41,3 +49,14 @@ A rough sketch of the front high side supply circuit so far:
 
                            A = Charge sense, B = Charge trigger, C = Discharge trigger, D = Load sense
 ```
+
+Most of the efficiency losses are expected to happen here.
+
+The "controller" in this instance may be microcontroller or a hard-wired oscillator circuit with high voltage and static tolerant passive components to limit trigger frequency.
+
+The output of the high side supply is expected to vary between 20V - 24V depending on the original input voltage (6V - 52V). The low side regulators with input and output isolation will connect to the high side constant voltage supply.
+
+A microcontroller may be used to provide a PWM signal to the low side current and voltage regulators for the multiple outputs. A microcontroller may also be useful to provide temperature sensing capability, connection status monitoring, fault condition monitoring, and for wireless status reporting and control. Timing chips may be used if a microcontroller is not available or desirable.
+
+
+
