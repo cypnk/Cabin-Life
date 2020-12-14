@@ -32,32 +32,32 @@ The narrowest recommended wire diameter is 14AWG for both supply and loads when 
 
 A rough sketch of the high side supply circuit for the 10V - 52V types:
 ```
- +10V-52V
-     |                       { D G S }
-     +-[ 8A Fuse ]-----+--+-[ P-MOSFET ]-+-----------+--+---+    +--GND
-                       |  |      +                   |  |   *)||(*
-    GND--+--[ TVS ]----+  |      |  +---[ 100K R ]---+  |    )||(
-         +-[ 1M 1W R ]-+  |      |  |                   |    )||(
-         |                |      |  |                   |    )||(               { D G S }
-         |  +-------------+      |  +------+--------+   |   +    +----------+-[ P-MOSFET ]-+-----+---> [ Low side ]
-         |  |                    |         |        |   |   |               |       +      |     |
-         |  +-[ Capacitor ]-+    |         +        |   |   +-[ (Big)Caps ]-+       |      |     |
-         |  +---[ 100K R ]--+----+---[ Power BJT ]  |   |   |                       |      |     |
-         |                             { C B E }    |   |   |  { D G S }            |      |     |
-         +-----------------------------------+      |   |   +-[ N-MOSFET ]--GND     |      |     |
-         |                                          |   |   |      +                |      |     |
-         +---------------------[ 50V Zener >| ]-----+   |   |      | +-------------+       |     |
-                                                        |   |      | | +-------------------+     |
-                              GND---+-[ (Medium)Caps ]--+   +----+ + + +                         |
-                                    |                   |      { A B C D }                       |
-                                    +-----+-[ 1M 1W R ]-+---+-[ Controller ]-+-+--[ Capacitor ]--+
-                                                                               |
-                                                                              GND
+ [ High side ]                                                                                          [ Low side ]
 
-                           A = Charge sense, B = Charge trigger, C = Discharge trigger, D = Load sense
+ +10V-52V
+     |                       { D G S }                                                   [1:1 Isolation]
+     +-[ 8A Fuse ]-----+--+-[ P-MOSFET ]-+-----------+--+---+    +--GND                 GND--+    +----> [ Low GND ]
+                       |  |      +                   |  |   *)||(*                GND        *)||(*
+    GND--+--[ TVS ]----+  |      |  +---[ 100K R ]---+  |    )||(                  |          )||(
+         +-[ 1M 1W R ]-+  |      |  |                   |    )||(                  +          )||(
+         |                |      |  |                   |    )||(              { D G S }      )||(
+         |  +-------------+      |  +------+--------+   |   +    +----------+-[ P-MOSFET ]-+-+    +-+--> [ Low V+ ]
+         |  |                    |         |        |   |   |               |                       |
+         |  +-[ Capacitor ]-+    |         +        |   |   +-[ (Big)Caps ]-+                       +---------+
+         |  +---[ 100K R ]--+----+---[ Power BJT ]  |   |   |                                                 |
+         |                             { C B E }    |   |   |  { D G S }            [ Low GND ]--[ Diode >| ]-+
+         +-----------------------------------+      |   |   +-[ N-MOSFET ]--GND
+         |                                          |   |   |      +
+         +---------------------[ 50V Zener >| ]-----+   |   |      |
+                                                        |   |      |
+                               GND--+-[ (Medium)Caps ]--+   +----+ +
+                                    |                   |      { A B }
+                                    +-----+-[ 1M 1W R ]-+   [ Controller ]
+
+                           A = Charge sense, B = Charge trigger (PWM)
 ```
 
-The "controller" in this instance may be microcontroller or a hard-wired oscillator circuit with high voltage and static tolerant passive components to limit trigger frequency.
+The "controller" in this instance may be microcontroller or a hard-wired oscillator circuit with high voltage and static tolerant passive components to limit trigger frequency and duty cycle. The final P-MOSFET before the isolation transformer can be replaced with a schottky diode.
 
 High side voltage limiting for the 6V - 28V type
 ```
