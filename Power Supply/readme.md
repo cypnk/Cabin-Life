@@ -35,47 +35,63 @@ A rough sketch of the high side supply circuit for the 10V - 52V types:
  [ High side ]                                                                                          [ Low side ]
 
  +10V-52V
-     |                       { D G S }                                                   [1:1 Isolation]
-     +-[ 8A Fuse ]-----+--+-[ P-MOSFET ]-+-----------+--+---+    +--GND                 GND--+    +----> [ Low GND ]
-                       |  |      +                   |  |   *)||(*                GND        *)||(*
-    GND--+--[ TVS ]----+  |      |  +---[ 100K R ]---+  |    )||(                  |          )||(
-         +-[ 1M 1W R ]-+  |      |  |                   |    )||(                  +          )||(
-         |                |      |  |                   |    )||(              { D G S }      )||(
-         |  +-------------+      |  +------+--------+   |   +    +----------+-[ P-MOSFET ]-+-+    +-+--> [ Low V+ ]
-         |  |                    |         |        |   |   |               |                       |
-         |  +-[ Capacitor ]-+    |         +        |   |   +-[ (Big)Caps ]-+                       +---------+
-         |  +---[ 100K R ]--+----+---[ Power BJT ]  |   |   |                                                 |
-         |                             { C B E }    |   |   |  { D G S }            [ Low GND ]--[ Diode >| ]-+
-         +-----------------------------------+      |   |   +-[ N-MOSFET ]--GND
-         |                                          |   |   |      +
-         +---------------------[ 50V Zener >| ]-----+   |   |      |
-                                                        |   |      |
-                               GND--+-[ (Medium)Caps ]--+   +----+ +
-                                    |                   |      { A B }
-                                    +-----+-[ 1M 1W R ]-+   [ Controller ]
+     |
+     +-[ 8A Fuse ]-+--+-[ Inductor ]-+-+
+                      |                |
+    GND-+-----[ TVS ]-+   +------------+ 
+        +-[ 1M 1W R ]-+   |
+                          |  { D G S }                                    { D G S }
+                          +-[ P-MOSFET ]-+-----------+--+  +---+    +-+-[ P-MOSFET ]-+------------------> [ Low V+ ]
+                          |      +                   |  |  |   *)||(*         +      |
+                          |      |  +---[ 100K R ]---+  |  |    )||(          |      +-[ Capacitor ]-+
+                          |      |  |                   |  |    )||(          |      +-[ 1M 1W R ]---+
+                          |      |  |   +-[ Capacitor ]-+  |    )||(          |                      |
+                          |      |  |   |                  |    )||(          |                      |
+                          |      |  |   +---------------+--+    )||(          |                      |
+            +-------------+      |  +------+--------+   |   +--+    +---------+----------------------+-> [ Low GND ]
+            |                    |         |        |   |   |
+            +-[ Capacitor ]-+    |         +        |   |   |
+            +---[ 100K R ]--+----+---[ Power BJT ]  |   |   |
+                                       { C B E }    |   |   |    { D G S }
+    GND--+-----------------------------------+      |   |   +--[ N-MOSFET ]--GND
+         |                                          |   |            +
+         +---------------------[ 50V Zener >| ]-----+   |            |
+                                                        |            |
+                                GND--+-[ Inductor ]-+---+-----+      +
+                                                            { A      B }
+                                                           [ Controller ]
 
                            A = Charge sense, B = Charge trigger (PWM)
 ```
 
-The "controller" in this instance may be microcontroller or a hard-wired oscillator circuit with high voltage and static tolerant passive components to limit trigger frequency and duty cycle. The final P-MOSFET before the isolation transformer can be replaced with a schottky diode.
+The "controller" in this instance may be microcontroller or a hard-wired oscillator circuit with high voltage and static tolerant passive components to limit trigger frequency and duty cycle. The final P-MOSFET at the low side can be replaced with a schottky diode.
 
 High side voltage limiting for the 6V - 28V type
 ```
  +6V-28V
-     |                     { D G S }
-     +--[ 5A Fuse ]--+--+-[ P-MOSFET ]-+-----------+--+--- [ Rest of circuit ]
-                     |  |      +                   |
-   GND--+--[ TVS ]---+  |      |  +----[ 50K R ]---+
-        +-[ 1M 1W R ]+  |      |  |
-        |               |      |  |
-        |   +-----------+      |  +------+---------+
-        |   |                  |         |         |
-        |   +-[ Capacitor ]-+  |         +         |
-        |   +---[ 50K R ]---+--+---[ Power BJT ]   |
-        |                            { C B E }     |
-        +----------------------------------+       |
-        |                                          |
-        +--------------------[ 25V Zener >| ]------+
+    |
+    +-[ 5A Fuse ]-+--+-[ Inductor ]-+-+
+                     |                |
+   GND-+-----[ TVS ]-+   +------------+
+       +-[ 1M 1W R ]-+   |
+                         |  { D G S }
+                         +-[ P-MOSFET ]-+-----------+--+
+                         |      +                   |  |
+                         |      |  +----[ 50K R ]---+  |
+                         |      |  |                   |
+                         |      |  |   +-[ Capacitor ]-+
+                         |      |  |   |
+                         |      |  |   +---------------+-- [ Rest of circuit ]
+             +-----------+      |  +------+---------+  |
+             |                  |         |         |  |
+             +-[ Capacitor ]-+  |         +         |  |
+             +---[ 50K R ]---+--+---[ Power BJT ]   |  |
+                                      { C B E }     |  |
+    GND--+----------------------------------+       |  |
+         |                                          |  |
+         +--------------------[ 25V Zener >| ]------+  |
+                                                       |
+                               GND--+-[ Inductor ]-+---+
 ```
 
 The output of the high side supply is expected to vary between 20V - 24V depending on the original input voltage (6V - 52V). The low side regulators with input and output isolation will connect to the high side constant voltage supply.
