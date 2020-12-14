@@ -99,7 +99,7 @@ High spike (one-time or very limited number of times) transient protection with 
      | 
      +-[ Fuse ]---+-----+-[ Inductor ]-+-[ Rest of circuit ]
                   |                    |
-EARTH----[ GDS ]--+                    |
+EARTH----[ GDT ]--+                    |
                     GND-+----+-[ TVS ]-+
                         |              |
                         +--[ 1M 1W R ]-+
@@ -111,7 +111,7 @@ High spike transient protection with independent Earth instead of common ground
      | 
      +-[ Fuse ]---+--+-[ Inductor ]-+------+-[ Rest of circuit ]
                   |  |                     |
-EARTH--+-[ GDS ]--+  |                     |
+EARTH--+-[ GDT ]--+  |                     |
        |             |   GND---[ 1M 1W R ]-+
        +-[ TVS ]-+---+
 ```
