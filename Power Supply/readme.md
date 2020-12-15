@@ -34,6 +34,8 @@ A rough sketch of the high side supply circuit for the 10V - 52V types:
 ```
  [ High side ]                                                                                          [ Low side ]
 
+ | ------------ Protection ------------ | --- Limiting --- | --- Regulation --- | ------- Output ------- |
+ 
  +10V-52V
      |
      +-[ 8A Fuse ]-+--+-[ Inductor ]-+-+
@@ -48,12 +50,12 @@ A rough sketch of the high side supply circuit for the 10V - 52V types:
                           |      |  |   +-[ Capacitor ]-+  |    )||(          |                      |
                           |      |  |   |                  |    )||(          |                      |
                           |      |  |   +---------------+--+    )||(          |                      |
-            +-------------+      |  +------+--------+   |   +--+    +---------+----------------------+-> [ Low GND ]
-            |                    |         |        |   |   |
-            +-[ Capacitor ]-+    |         +        |   |   |
-            +---[ 100K R ]--+----+---[ Power BJT ]  |   |   |
-                                       { C B E }    |   |   |    { D G S }
-    GND--+-----------------------------------+      |   |   +--[ N-MOSFET ]--GND
+            +-------------+      |  +------+--------+   |    +-+    +---------+----------------------+-> [ Low GND ]
+            |                    |         |        |   |    |
+            +-[ Capacitor ]-+    |         +        |   |    |
+            +---[ 100K R ]--+----+---[ Power BJT ]  |   |    |
+                                       { C B E }    |   |    |   { D G S }
+    GND--+-----------------------------------+      |   |    +-[ N-MOSFET ]--GND
          |                                          |   |            +
          +---------------------[ 50V Zener >| ]-----+   |            |
                                                         |            |
@@ -68,6 +70,10 @@ The "controller" in this instance may be microcontroller or a hard-wired oscilla
 
 High side voltage limiting for the 6V - 28V type
 ```
+ [ High side ] 
+ 
+ | ------------ Protection ------------ | --- Limiting --- |
+ 
  +6V-28V
     |
     +-[ 5A Fuse ]-+--+-[ Inductor ]-+-+
@@ -91,7 +97,7 @@ High side voltage limiting for the 6V - 28V type
          |                                          |  |
          +--------------------[ 25V Zener >| ]------+  |
                                                        |
-                               GND--+-[ Inductor ]-+---+
+                               GND--+-[ Inductor ]-+---+-- [ Rest of circuit ]
 ```
 
 The output of the high side supply is expected to vary between 20V - 24V depending on the original input voltage (6V - 52V). The low side regulators with input and output isolation will connect to the high side constant voltage supply.
@@ -102,33 +108,50 @@ The circuit must be wired with its own Earth return separately from the common g
 
 Alternate transient protection with independent Earth, separate from common ground
 ```
+ [ High side ]
+
+ | ------------ Protection ------------ |
+
      V+
      | 
-     +-[ Fuse ]--+-----+-[ Inductor ]-+-+-[ Rest of circuit ]
-                 |                      |
-EARTH---[ TVS ]--+     GND--[ 1M 1W R ]-+
+     +-[ Fuse ]-+--+-[ Inductor ]-+-+-[ Rest of circuit ]
+                |                   |
+EARTH--[ TVS ]--+                   |
+                   GND--[ 1M 1W R ]-+
+
+
 ```
 
 High spike (one-time or very limited number of times) transient protection with gas discharge tube (spark gap)
 ```
+ [ High side ]
+
+ | ------------ Protection ------------ |
      V+
      | 
-     +-[ Fuse ]---+-----+-[ Inductor ]-+-[ Rest of circuit ]
-                  |                    |
-EARTH----[ GDT ]--+                    |
-                    GND-+----+-[ TVS ]-+
-                        |              |
-                        +--[ 1M 1W R ]-+
+     +-[ Fuse ]-+--+-[ Inductor ]-+-+-[ Rest of circuit ]
+                |                   |
+EARTH--[ GDT ]--+                   |
+                 GND-+----+-[ TVS ]-+
+                     |              |
+                     +--[ 1M 1W R ]-+
 ```
 
 High spike transient protection with independent Earth instead of common ground
 ```
+ [ High side ]
+
+ | ------------ Protection ------------ |
      V+
      | 
-     +-[ Fuse ]---+--+-[ Inductor ]-+------+-[ Rest of circuit ]
-                  |  |                     |
-EARTH--+-[ GDT ]--+  |                     |
-       |             |   GND---[ 1M 1W R ]-+
-       +-[ TVS ]-+---+
+      +-[ Fuse ]-+--+-[ Inductor ]-+-+-[ Rest of circuit ]
+                    |                |
+EARTH--+-[ GDT ]----+                |
+       +-[ TVS ]----+                |
+                                     |
+                   GND---[ 1M 1W R ]-+
 ```
+
+The output will be current limited to the maximum using a low dropout shunt resistor, either supplied or DIY. The low side will be split to multiple voltages from the constant voltage output.
+
 
