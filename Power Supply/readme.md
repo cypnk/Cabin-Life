@@ -43,27 +43,27 @@ A rough sketch of the high side supply circuit for the 10V - 52V types:
     GND-+-----[ TVS ]-+   +------------+ 
         +-[ 1M 1W R ]-+   |
                           |  { D G S }                                    { D G S }
-                          +-[ P-MOSFET ]-+-----------+--+  +---+    +-+-[ P-MOSFET ]-+------------------> [ Low V+ ]
+                          +-[ P-MOSFET ]-+-----------+--+--+---+    +-+-[ P-MOSFET ]-+------------------> [ Low V+ ]
                           |      +                   |  |  |   *)||(*         +      |
                           |      |  +---[ 100K R ]---+  |  |    )||(          |      +-[ Capacitor ]-+
                           |      |  |                   |  |    )||(          |      +-[ 1M 1W R ]---+
                           |      |  |   +-[ Capacitor ]-+  |    )||(          |                      |
                           |      |  |   |                  |    )||(          |                      |
-                          |      |  |   +---------------+--+    )||(          |                      |
-            +-------------+      |  +------+--------+   |    +-+    +---------+----------------------+-> [ Low GND ]
-            |                    |         |        |   |    |
-            +-[ Capacitor ]-+    |         +        |   |    |
-            +---[ 100K R ]--+----+---[ Power BJT ]  |   |    |
-                                       { C B E }    |   |    |   { D G S }
-    GND--+-----------------------------------+      |   |    +-[ N-MOSFET ]--GND
-         |                                          |   |            +
-         +---------------------[ 50V Zener >| ]-----+   |            |
-                                                        |            |
-                                GND--+-[ Inductor ]-+---+-----+      +
-                                                            { A      B }
-                                                           [ Controller ]
+                          |      |  |   +---------------+  |   )||(          |                      |
+            +-------------+      |  +------+--------+   |  | +-+    +---------+----------------------+-> [ Low GND ]
+            |                    |         |        |   |  | |
+            +-[ Capacitor ]-+    |         +        |   |  | |
+            +---[ 100K R ]--+----+---[ Power BJT ]  |   |  | |
+                                       { C B E }    |   |  | |   { D G S }
+    GND--+-----------------------------------+      |   |  | +-[ N-MOSFET ]--GND
+         |                                          |   |  |         +
+         +---------------------[ 50V Zener >| ]-----+   |  +------+  |
+                                                        |         |  |
+                                GND--+-[ Inductor ]-+---+------+  +  +
+                                                             { A  B  C }
+                                                            [ Controller ]
 
-                           A = Charge sense, B = Charge trigger (PWM)
+                           A = Charge sense, B = Source sense, C = Charge trigger (PWM), 
 ```
 
 The "controller" in this instance may be microcontroller or a hard-wired oscillator circuit with high voltage and static tolerant passive components to limit trigger frequency and duty cycle. The final P-MOSFET at the low side can be replaced with a schottky diode.
@@ -81,13 +81,13 @@ High side voltage limiting for the 6V - 28V type
    GND-+-----[ TVS ]-+   +------------+
        +-[ 1M 1W R ]-+   |
                          |  { D G S }
-                         +-[ P-MOSFET ]-+-----------+--+
+                         +-[ P-MOSFET ]-+-----------+--+-- [ Rest of circuit ]
                          |      +                   |  |
                          |      |  +----[ 50K R ]---+  |
                          |      |  |                   |
                          |      |  |   +-[ Capacitor ]-+
                          |      |  |   |
-                         |      |  |   +---------------+-- [ Rest of circuit ]
+                         |      |  |   +---------------+
              +-----------+      |  +------+---------+  |
              |                  |         |         |  |
              +-[ Capacitor ]-+  |         +         |  |
