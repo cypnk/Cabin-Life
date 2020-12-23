@@ -155,6 +155,6 @@ EARTH--+-[ GDT ]----+                |
 The output will be current limited to the maximum using a low dropout shunt resistor, either supplied or DIY. The low side will be split to multiple voltages from the constant voltage output.
 
 
-A rough sketch of the high side power supply in progress
+A rough sketch of the high side power supply in progress with V+, V-, and common ground rails. The test ground is present only for simulating the circuit in [LTspice](https://en.wikipedia.org/wiki/LTspice).
 ![power supply](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Power%20Supply/testpowersupply-12-30V.png)
 
