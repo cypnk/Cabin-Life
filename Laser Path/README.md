@@ -4,7 +4,11 @@ This is a sketch concept to create a laser-based direction indicator for wayward
 
 ## Concept
 
-A pair of lasers of the same visible wavelength, pointing in the same direction, and arranged in such a way above the line of sight that the direction of travel is immediately obvious: The viewer (hiker or pedestrian) is supposed to travel toward the laser pair. The color is not particularly important as long as it is bright enough for the environment in which it is used and low enough in intensity to not cause fires. The minimum height of the laser path should be at least 240cm or about 8 feet, and no more than 500cm or roughly 16.5 feet to ensure low-lying obstacles don't intrude on the beams, to prevent the laser from accidentally striking the viewer, and to prevent striking any low-flying aircraft. If during emergencies a greater height is needed, or if the laser is installed on predetermined paths ahead of time, an end stop or target is required at the same height to prevent the laser from continuing beyond safe distances.
+A pair of lasers of the same visible wavelength, pointing in the same direction, and arranged in such a way above the line of sight that the direction of travel is immediately obvious: **The viewer (hiker or pedestrian) is supposed to travel toward the laser pair.** 
+
+The color is not particularly important as long as it is bright enough for the environment in which it is used and low enough in intensity to not cause fires. The minimum height of the laser path should be at least 240cm or about 8 feet, and no more than 500cm or roughly 16.5 feet to ensure low-lying obstacles don't intrude on the beams, to prevent the laser from accidentally striking the viewer, and to prevent striking any low-flying aircraft. 
+
+If during emergencies a greater height is needed, or if the laser is installed on predetermined paths ahead of time, an end stop or target is required at the same height to prevent the laser from continuing beyond safe distances.
 
 The lasers are to be arranged from top left to bottom right in descending fashion:
 ```
