@@ -7,3 +7,5 @@ A wood burning stove with cooking capability that is suitable for a small cabin 
 ![front profile](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Wood%20Stove/preview/stove1.png)
 * [Power Supply](https://github.com/cypnk/Cabin-Life/tree/master/Power%20Supply)  
 A simple, portable, power supply for various off-grid projects and solutions (work in progress)
+* [Laser Path](https://github.com/cypnk/Cabin-Life/tree/master/Laser%20Path)  
+A bad weather navigation concept for hikers, pedestrians, or other land explorers
