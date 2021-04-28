@@ -11,4 +11,6 @@ A simple, portable, power supply for various off-grid projects and solutions (wo
 A bad weather navigation concept for hikers, pedestrians, or other land explorers
 * [Outdoor Enclosure](https://github.com/cypnk/Cabin-Life/tree/master/Outdoor%20Enclosure)  
 A multi-function enclosure design for use as an outdoor terminal, kiosk, battery charging station, or similar
-![outdoor enclosure front profile](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Outdoor%20Enclosure/preview/terminal1.png)
+![outdoor enclosure front profile](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Outdoor%20Enclosure/preview/terminal1.png)  
+* [Power Storage](https://github.com/cypnk/Cabin-Life/tree/master/Power%20Storage)  
+A durable, easily made, rechargeable battery system using the Zinc bromide chemistry (work in progress)
