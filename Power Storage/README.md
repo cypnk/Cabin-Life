@@ -8,7 +8,7 @@ Potential drawbacks are that the energy density per volume is far lower than LiF
 
 Potential solutions to drawbacks include using end-sealed lengths of PVC pipe as containers, which are already leak resistant and allow easier movement once assembled. A gelling agent such as Sodium polyacrylate may used on the electrolyte and the patent for this process has already expired. A venting system similar to when charging lead acid batteries can be used to take care of undesirable gases. Using a timing system, multiple batteries can be set to charge/discharge on different days or skip charging entirely using a controller connected to automotive or solid-state relays for each each battery. The logic for such a system may be hard-wired using simple TTL chips if a microcontroller is unavailable or undesirable.
 
-**Electrolyte components**
+**Electrolyte components:**
 * Zinc sulfate (ZnSO₄). Available as a dietary supplement or for other pharmaceutical use
 * Sodium bromide (NaBr). Available as a disinfectant for swimming pools and hot tubs
 * Distilled water
@@ -19,17 +19,25 @@ Premade Zinc bromide can be purchased, however it may not be readily available i
 * Heavy duty, reclosable, plastic storage bag
 * 14-16AWG wire with outdoor rated insulator
 * Zinc wire and/or zinc strips
-* Conductive foam sheet. Commonly sold as "anti-static" foam for electronics packaging
+* Conductive foam sheet. Commonly sold as "anti-static" foam for electronics packaging (alternatively, graphite sheets can be used)
 
 **Final cell components:**
-* 4" PVC schedule-40 pipes (locales outside the U.S. may use equivalent sizes)
-* PVC cement, (with primer or primer combination recommended)
-* Threaded end caps
+* 4" PVC schedule-40 pipes (locales outside the U.S. may use equivalent sizes) or similar PVC underground conduit
+* PVC cement (with primer or primer combination recommended)
+* Threaded end caps and couplings
 * Pressure fit end caps
 * 12AWG wire with outdoor rated insulator
-* Zinc flashing roll (or similar strip which can be coiled)
-* Conductive foam sheet
+* Zinc flashing roll or similar Zinc strip at least 2.5" or 6.25cm to 6.5cm wide (or similar strip which can be coiled)
 
+**Tools and utensils:**
+* Metal snips, also called tin snips or aviation snips
+* Pliers
+* Steel wool (to clean the Zinc in case of surface impurities, not needed if Zinc is clean)
+* Glass measuring cup showing milliliter increments
+* Wooden or plastic spoons
+* Weight scale capable of measuring at least up to 800g
+* Metal container or large tin can capable of holding 1L or a dedicated double-boiler
+* Stove or heater
 
 Assembly and final design in progress...
 
