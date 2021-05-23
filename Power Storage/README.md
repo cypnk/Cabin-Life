@@ -19,7 +19,7 @@ Premade Zinc bromide can be purchased, however it may not be readily available i
 * Heavy duty, reclosable, plastic storage bag
 * 14-16AWG wire with outdoor rated insulator
 * Zinc wire and/or zinc strips
-* Conductive foam sheet. Commonly sold as "anti-static" foam for electronics packaging (alternatively, graphite sheets can be used)
+* Graphite foil sheets without binders or inserts. Available as gaskets or seals for high-temperature applications
 
 **Final cell components:**
 * 4" PVC schedule-40 pipes (locales outside the U.S. may use equivalent sizes) or similar PVC underground conduit
@@ -28,6 +28,7 @@ Premade Zinc bromide can be purchased, however it may not be readily available i
 * Pressure fit end caps
 * 12AWG wire with outdoor rated insulator
 * Zinc flashing roll or similar Zinc strip at least 2.5" or 6.25cm to 6.5cm wide (or similar strip which can be coiled)
+* Graphite foil sheets
 
 **Tools and utensils:**
 * Metal snips, also called tin snips or aviation snips
@@ -38,6 +39,7 @@ Premade Zinc bromide can be purchased, however it may not be readily available i
 * Weight scale capable of measuring at least up to 800g
 * Metal container or large tin can capable of holding 1L or a dedicated double-boiler
 * Stove or heater
+* Gloves
 
 Assembly and final design in progress...
 
