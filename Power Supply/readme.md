@@ -158,3 +158,6 @@ The output will be current limited to the maximum using a low dropout shunt resi
 A rough sketch of the high side power supply in progress with V+, V-, and common ground rails. The test ground is present only for simulating the circuit in [LTspice](https://en.wikipedia.org/wiki/LTspice).
 ![power supply](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Power%20Supply/testpowersupply-12-30V.png)
 
+A variation based on a linear off-the-shelf regulator and more common parts, this is a 5V power supply with protected lines for bi-directional data transmission. It is intended to power a microcontroller or other small device via the internal bus and facilitate ESD (electrostatic discharge) protected communication with a device connected to the external bus. Reference voltage, Ref+, is given to enable the receiving device to pick out the signal pulses in a noisy environment and allow the microcontroller or other powered device to detect whether it is connected a receiving device.
+![protected power supply](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Power%20Supply/protectedpowersupply.png)
+
