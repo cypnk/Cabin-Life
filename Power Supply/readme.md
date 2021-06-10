@@ -10,7 +10,7 @@ Eventually, there will be several types optimized for various supply voltages, a
 - Type 3: Accept 10V - 52V and supply 3.3V, +5V, -5V, and 12V
 - Type 4: Accept 10V - 52V and supply +3.3V, -3.3V, +5V, -5V, +12V, and -12V
 
-The first type is to test build feasibility and check if the concept is useful in a small footprint with commonly available components. The 28V upper limit is to is to accommodate a 24V solar power system with allowance for an increase during a battery charge cycle while also being compatible with a smaller cellular phone charging solar panel. The 52V upper limit in the rest of the power supplies is to match a 48V solar power system. The low amperage rating is to maximize runtime while ensuring the solar panel system isn't damaged in the absence of an inverter or other kind of current limiting circuit.
+The first type is to test build feasibility and check if the concept is useful in a small footprint with commonly available components. The 28V upper limit is to accommodate a 24V solar power system with allowance for an increase during a battery charge cycle while also being compatible with a smaller cellular phone charging solar panel. The 52V upper limit in the rest of the power supplies is to match a 48V solar power system. The low amperage rating is to maximize runtime while ensuring the solar panel system isn't damaged in the absence of an inverter or other kind of current limiting circuit.
 
 The power supply circuitry will be protected as much as possible from electrostatic discharge (ESD) and over-current situations.
 
@@ -155,11 +155,11 @@ EARTH--+-[ GDT ]----+                |
 The output will be current limited to the maximum using a low dropout shunt resistor, either supplied or DIY. The low side will be split to multiple voltages from the constant voltage output.
 
 
-A rough sketch of the high side power supply in progress with V+, V-, and common ground rails. The test ground is present only for simulating the circuit in [LTspice](https://en.wikipedia.org/wiki/LTspice).
+A rough sketch of the high side power supply in progress with V+, V-, and common ground rails. The program used to design this circuit is [LTspice](https://en.wikipedia.org/wiki/LTspice).
 
-![power supply](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Power%20Supply/testpowersupply-12-30V.png)
+![power supply](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Power%20Supply/highsidepowersupply-10-52V.png)
 
-Low side supply test for the 12V, 5V, and 3.3V rails with independent current limiting. This circuit can be placed in series after the "Ripple Filter" in the above circuit. The reference voltage chip here outputs 10V, however, this chip can be replaced with an equivalent chip with similar tolerances. None of the supporting component values are absolutely critical. At least 18V input is recommended to give allowance for component losses.
+Low side supply test for the 12V, 5V, and 3.3V rails with independent current limiting. This circuit can be placed in series after the the above circuit. The reference voltage chip here outputs 10V, however, this chip can be replaced with an equivalent chip with similar tolerances. None of the supporting component values are absolutely critical. At least 18V input is recommended to give allowance for component losses.
 
 ![low side supply](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Power%20Supply/lowsidepowersupply.png)
 
