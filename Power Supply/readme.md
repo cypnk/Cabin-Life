@@ -159,7 +159,7 @@ A rough sketch of the high side power supply in progress with V+, V-, and common
 
 ![power supply](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Power%20Supply/highsidepowersupply-10-52V.png)
 
-Low side supply test for the 12V, 5V, and 3.3V rails with independent current limiting. This circuit can be placed in series after the the above circuit. The reference voltage chip here outputs 10V, however, this chip can be replaced with an equivalent chip with similar tolerances. None of the supporting component values are absolutely critical. At least 18V input is recommended to give allowance for component losses.
+Low side supply test for the 12V, 5V, and 3.3V rails with independent current limiting. This circuit can be placed in series after the the above circuit. The reference voltage chip here outputs 10V, however, this chip can be replaced with an equivalent chip with similar tolerances. None of the supporting component values are absolutely critical. At least 18V input is recommended to give allowance for component losses. While this circuit and the one below use the LM741 operational amplifier due to its availability in older electronics and high scavange potential, the LM358 or newer opamp can be used. The prototype will likely use the LM358.
 
 ![low side supply](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Power%20Supply/lowsidepowersupply.png)
 
