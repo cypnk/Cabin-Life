@@ -167,7 +167,7 @@ A variation based on a linear off-the-shelf regulator and more common parts, thi
 
 ![protected power supply](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Power%20Supply/protectedpowersupply.png)
 
-This is a multiple output standalone power supply combining some of the ideas in the above circuits. This can be used to power a microcontroller and other small devices under 1A in power draw. Most of the components in this circuit can be scavanged or made at home, such as the 5mH coupled coil using a toroidal core and copper wire.
+This is a multiple output standalone power supply combining some of the ideas in the above circuits. This can be used to power a microcontroller and other small devices under 1A in power draw. Most of the components in this circuit can be scavanged or made at home, such as the 5mH coupled coil using a toroidal core and copper wire. This is the Type 2 power supply on the list of variants.
 
 ![power supply](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Power%20Supply/combinedmultipowersupply.png)
 
