@@ -154,12 +154,9 @@ EARTH--+-[ GDT ]----+                |
 
 The output will be current limited to the maximum using a low dropout shunt resistor, either supplied or DIY. The low side will be split to multiple voltages from the constant voltage output.
 
+Low side supply test for the 12V, 5V, and 3.3V rails with current limiting. This circuit can be placed in series after the the above circuit. This circuit can be used standalone, but a fuse and an opposed zender diode pair for spike protection is recommended after V1 and before any other component is placed. The reference voltage chip here outputs 10V, however, this chip can be replaced with an equivalent chip with similar tolerances. None of the supporting component values are absolutely critical. At least 18V input is recommended to give allowance for component losses. While this circuit and the one below use the LM741 operational amplifier due to its availability in older electronics and high scavange potential, the dual opamp LM358 or newer opamp can be used. The prototype will likely use the quad opamp LM324.
 
-A rough sketch of the high side power supply in progress with V+, V-, and common ground rails. The program used to design this circuit is [LTspice](https://en.wikipedia.org/wiki/LTspice).
-
-![power supply](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Power%20Supply/highsidepowersupply-10-52V.png)
-
-Low side supply test for the 12V, 5V, and 3.3V rails with current limiting. This circuit can be placed in series after the the above circuit. This circuit can be used standalone, but a fuse and an opposed zender diode pair for spike protection is recommended after V1 and before any other component is placed. The reference voltage chip here outputs 10V, however, this chip can be replaced with an equivalent chip with similar tolerances. None of the supporting component values are absolutely critical. At least 18V input is recommended to give allowance for component losses. While this circuit and the one below use the LM741 operational amplifier due to its availability in older electronics and high scavange potential, the LM358 or newer opamp can be used. The prototype will likely use the LM358.
+The program used to design this circuit is [LTspice](https://en.wikipedia.org/wiki/LTspice).
 
 ![low side supply](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Power%20Supply/lowsidepowersupply.png)
 
