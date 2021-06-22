@@ -16,13 +16,13 @@ The power supply circuitry will be protected as much as possible from electrosta
 
 Efficiencies have not yet been determined, but the goal is to approach at least ~80% without using any specialized, high-efficiency, components.
 
-Components for the power supply may come from new stock or salvaged electronics made from around 1980 and after. 
+Components for the power supply may come from new stock or salvaged electronics made from around 1980 and after. E.G. Discarded or recycled televisions (particularly CRTs), radio receivers, audio electronics such as stereo amplifiers, power electronics etc...
 
 **IMPORTANT** **: *The reuse of old-stock electrolytic capacitors, especially from the 1990s, is strongly discouraged for safety reasons. Ceramic capacitors should be inspected for cracks and large capacitance variations (a sign of internal shorting). All components should be thoroughly tested for faults before being reused***
 
-**Electricity is dangerous and the author is not responsible for any damage to property, injuries, or worse, which may be caused by using any of the information presented here.**
+***Electricity is dangerous and the author is not responsible for any damage to property, injuries, or worse, which may be caused by using any of the information presented here.***
 
-In any area of the power supply where a microcontroller can be used, but not available or undesired for any reason, a configurable timing chip, such as the 555 or 556 IC, may be used with additional passive components to regulate the pulse-width-modulated (PWM) output and to limit the input voltage to levels the IC can tolerate. There is greater salvage and reuse potential with timing chips as opposed to microcontrollers which may be more precise, however microcontrollers require additional infastructure, some propietary, to program and configure initially. There is a tradeoff with both options.
+In any area of the power supply where a microcontroller can be used, but not available or undesired for any reason, a configurable timing chip, such as the 555 or 556 IC or an operational amplifier (opamp) in a Wien bridge configuration may be used with additional passive components to regulate the pulse-width-modulated (PWM) output and to limit the input voltage to levels. There is greater salvage and reuse potential with timing chips and opamps as opposed to microcontrollers which may be more precise, however microcontrollers require additional infastructure, some propietary, to program and configure initially. There is a tradeoff with both options.
 
 Most of the efficiency losses are expected to happen in the high side constant voltage circuit.
 
@@ -159,7 +159,7 @@ A rough sketch of the high side power supply in progress with V+, V-, and common
 
 ![power supply](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Power%20Supply/highsidepowersupply-10-52V.png)
 
-Low side supply test for the 12V, 5V, and 3.3V rails with independent current limiting. This circuit can be placed in series after the the above circuit. The reference voltage chip here outputs 10V, however, this chip can be replaced with an equivalent chip with similar tolerances. None of the supporting component values are absolutely critical. At least 18V input is recommended to give allowance for component losses. While this circuit and the one below use the LM741 operational amplifier due to its availability in older electronics and high scavange potential, the LM358 or newer opamp can be used. The prototype will likely use the LM358.
+Low side supply test for the 12V, 5V, and 3.3V rails with current limiting. This circuit can be placed in series after the the above circuit. This circuit can be used standalone, but a fuse and an opposed zender diode pair for spike protection is recommended after V1 and before any other component is placed. The reference voltage chip here outputs 10V, however, this chip can be replaced with an equivalent chip with similar tolerances. None of the supporting component values are absolutely critical. At least 18V input is recommended to give allowance for component losses. While this circuit and the one below use the LM741 operational amplifier due to its availability in older electronics and high scavange potential, the LM358 or newer opamp can be used. The prototype will likely use the LM358.
 
 ![low side supply](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Power%20Supply/lowsidepowersupply.png)
 
