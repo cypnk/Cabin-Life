@@ -35,6 +35,7 @@ Premade Zinc bromide can be purchased, however it may not be readily available i
 * Pliers
 * Steel wool (to clean the Zinc in case of surface impurities, not needed if Zinc is clean)
 * Glass measuring cup showing milliliter increments
+* Digital scale with at least 900g limit and 0.1g resolution
 * Wooden or plastic spoons
 * Weight scale capable of measuring at least up to 800g
 * Metal container or large tin can capable of holding 1L or a dedicated double-boiler
