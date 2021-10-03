@@ -6,7 +6,7 @@ Other benefits include readily available and relatively cheap replacement parts 
 
 Potential drawbacks are that the energy density per volume is far lower than LiFePO₄, which means larger cells for equivalent capacity. The battery may be difficult to move, depending on the type of container used, once assembled and must be checked for leaks before filling with the electrolyte since it's a liquid battery. Charging may produce H², similar to lead acid batteries, especially at higher currents. Potential Bromine gas release is possible, which may cause "pool smell". The battery must be periodically shorted to 0% charge to reduce electrode dendrite buildup.
 
-Potential solutions to drawbacks include using end-sealed lengths of PVC pipe as containers, which are already leak resistant and allow easier movement once assembled. A gelling agent such as Sodium polyacrylate may used on the electrolyte and the patent for this process has already expired. A venting system similar to when charging lead acid batteries can be used to take care of undesirable gases. Using a timing system, multiple batteries can be set to charge/discharge on different days or skip charging entirely using a controller connected to automotive or solid-state relays for each each battery. The logic for such a system may be hard-wired using simple TTL chips if a microcontroller is unavailable or undesirable.
+Potential solutions to drawbacks include using end-sealed lengths of PVC pipe as containers, which are already leak resistant and allow easier movement once assembled. A gelling agent such as Sodium polyacrylate may be added to the electrolyte and the patent for this process has already expired. A venting system similar to when charging lead acid batteries can be used to take care of undesirable gases. Using a timing system, multiple batteries can be set to charge/discharge on different days or skip charging entirely using a controller connected to automotive or solid-state relays for each each battery. The logic for such a system may be hard-wired using simple TTL chips if a microcontroller is unavailable or undesirable.
 
 **Electrolyte components:**
 * Zinc sulfate (ZnSO₄). Available as a dietary supplement or for other pharmaceutical use
@@ -20,15 +20,16 @@ Premade Zinc bromide can be purchased, however it may not be readily available i
 * 14-16AWG wire with outdoor rated insulator
 * Zinc wire and/or zinc strips
 * Graphite foil sheets without binders or inserts. Available as gaskets or seals for high-temperature applications
+  * A carbon rod electrode can be substituted, if available 
 
 **Final cell components:**
-* 4" PVC schedule-40 pipes (locales outside the U.S. may use equivalent sizes) or similar PVC underground conduit
+* 4" (locales outside the U.S. may use equivalent sizes) PVC schedule-40, or SDR 35, or similar drainage pipes
 * PVC cement (with primer or primer combination recommended)
 * Threaded end caps and couplings
 * Pressure fit end caps
 * 12AWG wire with outdoor rated insulator
 * Zinc flashing roll or similar Zinc strip at least 2.5" or 6.25cm to 6.5cm wide (or similar strip which can be coiled)
-* Graphite foil sheets
+* Graphite foil sheets or carbon rod electrodes
 
 **Tools and utensils:**
 * Metal snips, also called tin snips or aviation snips
