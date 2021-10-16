@@ -13,4 +13,8 @@ A bad weather navigation concept for hikers, pedestrians, or other land explorer
 A multi-function enclosure design for use as an outdoor terminal, kiosk, battery charging station, or similar
 ![outdoor enclosure front profile](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Outdoor%20Enclosure/preview/terminal1.png)  
 * [Power Storage](https://github.com/cypnk/Cabin-Life/tree/master/Power%20Storage)  
-A durable, easily made, rechargeable battery system using the Zinc bromide chemistry (work in progress)
+A durable, easily made, rechargeable battery system using the Zinc bromide chemistry (work in progress)  
+* Wheelbarrow  
+A simple hand cart for carrying material made from lumber and a few off-the-shelf parts (work in progress)  
+* Three-phase assembly  
+A coil stator and magnet arragement which can be used as an electric generator or motor (work in progress)
