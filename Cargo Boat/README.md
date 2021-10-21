@@ -20,3 +20,26 @@ While the use of traditional building lumber creates a heavier craft, the design
 
 Design in progress...
 
+The main hull structure is composed of segments using 2x8 vertical rails joined to a 2x12 bottom rail. The vertical rails are up to the desired height of the boat, in this case slightly less than 4 feet. While this creates vertical sides, which are less visually appealing, it requires no special skills and cuts can be made with hand tools if necessary.
+![basic_segment](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cargo%20Boat/basic_segment.png)
+
+The segments are arranged up to the desired length of the main hull and the joins are reinforced with treated plywood gussets. This helps to reduce lateral movement once assembled. The front segment is reversed (gussets facing back) to accommodate the bow and loading ramp. 
+![segments_arranged](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cargo%20Boat/segments_arranged.png)
+
+The spacing in this example is 16" center, similar to conventional framing.
+![segments_reinforced side view](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cargo%20Boat/segments_reinforced1.png)
+
+The side reinforcement reduces flexing while doubling as bulkheads for each watertight compartment. Even if there is infiltration from the top, these reduce the leakage to the bottom.
+![segments_reinforced rear view](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cargo%20Boat/segments_reinforced2.png)
+
+The bottom spacing rails use 2x4 lumber. These side rails add stability to the corners and should be kept below the join gussets and above the bottom reinforcement.
+![bottom rails](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cargo%20Boat/bottom_rails.png)
+
+The bottom side reinforcement is cut to the same length as the spacing rails and completes the corner profile of the boat.
+![bottom reinforcement](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cargo%20Boat/bottom_reinforcement.png)
+
+The bow (front) of the boat is not meant to sustain repeated impacts, though it should be built with enough rigidity to withstand the weight of the ramp when deployed. This section is a series of horizontal compartments which also reduce the spread of leaks should one compartment be compromised.
+![bow_frame side view](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cargo%20Boat/bow_frame.png)
+
+The spacing here is also 16" on center, except for the end pieces, however it should be reduced to 12" or narrower should the boat be intended to carry greater weight. A single 2x12 board is strongly recommended for the top as it will sustain the most wear. If multiple narrower pieces of lumber are to be used, they must be glued together before installation.
+![bow_frame front view](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cargo%20Boat/bow_frame2.png)
