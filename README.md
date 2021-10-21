@@ -17,4 +17,6 @@ A durable, easily made, rechargeable battery system using the Zinc bromide chemi
 * Wheelbarrow  
 A simple hand cart for carrying material made from lumber and a few off-the-shelf parts (work in progress)  
 * Three-phase assembly  
-A coil stator and magnet arragement which can be used as an electric generator or motor (work in progress)
+A coil stator and magnet arragement which can be used as an electric generator or motor (work in progress)  
+* Cargo boat  
+A small utility water craft with flat bottom and front loading ramp for use in inland waterways (work in progress)
