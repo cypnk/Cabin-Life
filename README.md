@@ -20,4 +20,8 @@ A simple hand cart for carrying material made from lumber and a few off-the-shel
 A coil stator and magnet arragement which can be used as an electric generator or motor (work in progress)  
 * [Cargo Boat](https://github.com/cypnk/Cabin-Life/tree/master/Cargo%20Boat)  
 A small utility water craft with flat bottom and front loading ramp for use in inland waterways (work in progress)
-![cargo boat frame](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cargo%20Boat/bow_frame.png)
+![cargo boat frame](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cargo%20Boat/bow_frame.png)  
+* Composting toilet  
+A simple and hygenic system to discard and potentially reuse human waste (work in progress)  
+* Windmill  
+A wind harnessing structure for carrying out household tasks and generating electricity (work in progress)  
