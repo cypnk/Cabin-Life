@@ -17,7 +17,7 @@ While the basic operation of various CAN bus systems is well known, the actual d
 Communication between devices is through a single pair of twisted wire (bus), ideally with a grounded shield, which is specially terminated on each end. Using twisted pairs is highly recommended. If twisted pair cable is not available, at least a conductive ground shielded wire pair is recommended.
 
 Bus end termination when a grounded shield is available. The other end follows the same scheme, but it is not connected to any other "Earth" on its own, except the shield, to avoid ground loops.
-[!CAN bus termination](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cabin%20Area%20Network/canbustermination.png)
+![CAN bus termination](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cabin%20Area%20Network/canbustermination.png)
 
 The wire pair is linked together with two 62ohm resistors connected in series and linked to ground via three separate capacitors in parallel. This method reduces signal reflections and attenuates noise from connected devices or any other sources nearby.
 
