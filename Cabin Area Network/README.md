@@ -16,7 +16,7 @@ While the basic operation of various CAN bus systems is well known, the actual d
 
 Devices communicate by sending messages based on address priority. The physical location of each device on the bus is irrelevant to its priority. Priority "arbitration" is built into the hardware of the transmit/receive buffer and requires no further processing on the device itself. The message with the lowest address (in binary) gets priority. The address is eight (8) bits long, which allows for 255 unique devices on the same bus. The builder of this system may add any number of addresses as necessary to fit their own purposes.
 
-Communication between devices is through a single pair of twisted wire pair designated "CAN High" and "CAN Low", ideally with a grounded shield, which is specially terminated on each end. Using twisted pairs is highly recommended. If twisted pair cable is not available, at least a conductive ground shielded wire pair is recommended. The wire pair is referred to as the "bus".
+Communication between devices is through a single pair of twisted wire designated "CAN High" and "CAN Low", ideally with a grounded shield, which is specially terminated on each end. Using twisted pairs is highly recommended. If twisted pair cable is not available, at least a conductive ground shielded wire pair is recommended. The wire pair is referred to as the "bus".
 
 A baseline voltage of 2.5V is maintained on both CAN High and CAN Low by the connected device. The maximum current draw of the bus is limited by the transciever/buffer to 150mA. This is to reduce power consumption and to prevent damage to components in the event of a dead short across the two wires of the bus or to ground. I.E. Rodent damage, accidental shovel strike of a buried line etc... 
 
