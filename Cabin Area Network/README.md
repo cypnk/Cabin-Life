@@ -54,9 +54,11 @@ The connected device sends a Request to Send (RTS) signal to its buffer indicati
 
 A value of one "1" is 2.5V on both CAN High and CAN Low, same as the baseline voltage. A value of zero "0" pushes CAN High up to 3.5V and CAN Low down to 1.5V. This [differential signalling](https://en.wikipedia.org/wiki/Differential_signalling) reduces the effect of noise and allows the buffer to detect if the transmitted digit is the same when it reads it back. Since the Intent to transmit is "0", if two or more buffers happen to transmit the same "0", there should be no contention and transmission can continue.
 
-Since "0" is "louder" (3.5V/1.5V High/Low) than "1" (2.5V both), the buffer will stop transmitting if the "1" in its address causes it to lose arbitration to a "0" of at any point during its address transmission phase. The buffer will keep trying as long as its connected device indicates RTS and it hasn't detected a "0" on the bus for the last 41 clock pulses.
+Since "0" is "louder" (3.5V/1.5V High/Low) than "1" (2.5V both), the buffer will stop transmitting if the "1" in its address causes it to lose arbitration to a "0" of another buffer at any point during its address transmission phase. The buffer will keep trying as long as its connected device indicates RTS and it hasn't detected a "0" on the bus for the last 41 clock pulses. Any number of devices up to the maximum address size may participate in this arbitration since very little current is drawn by the bus itself.
 
-If the buffer "wins" arbitration, it will send a Clear to Send (CTS) signal back to the connected device which will send its 32 bit payload, digit-by-digit, with each clock pulse which the buffer will immediately push to the bus.
+If the transmitting buffer "wins" arbitration, it will send a Clear to Send (CTS) signal back to the connected device which will send its 32 bit payload, digit-by-digit, with each clock pulse which the buffer will immediately push to the bus.
+
+When a device is first connected to the bus or powered on, it will listen on the bus for an address with higher priority than its own. Once detected, it will "bump" or sync its clock pulse to the last verified (not noise) pulse to ensure it can communicate synchronously. Periodic clock syncs are recommended over time to ensure devices don't drift too far away from each other.
 
 Arbritration at the hardware level in this manner can be accomplished with simple electronics such as transistors, op amps, and discreet logic without the use of a microcontroller. E.G. The RTS and CTS can be detected with a logical AND gate IC such as the CD4081.
 
