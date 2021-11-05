@@ -1,6 +1,6 @@
 # Cabin Area Network
 
-This is a system for basic housekeeping tasks such as getting sensor data on temperature, humidity, other weather indicators, or sending alerts when local fauna such as bears or coyotes have entered the garden area. The network can be also used for signalling devices to turn on or off such as floodlights connected to solar charged batteries, well pumps, windows on greenhouses, or fans installed in outdoor composting toilets.
+This is a system for basic housekeeping tasks such as getting sensor data on temperature, humidity, other weather indicators, or sending alerts when local fauna such as bears or coyotes have entered the garden area. The network can also be used for signalling devices to turn on or off such as floodlights connected to solar charged batteries, well pumps, windows on greenhouses, or fans installed in outdoor composting toilets.
 
 All devices on the network act independently without the use of a "Master" controller, which greatly simplifies signalling. Each device has an independent ID, which also doubles as its priority. The basic premise of the network is based on the Controller Area Network, or CAN bus, with elements borrowed from other robust systems.
 
@@ -14,9 +14,9 @@ While the basic operation of various CAN bus systems is well known, the actual d
 
 ## Concept
 
-Devices communicate by sending messages based on address priority. The physical location of each device on the bus is irrelevant to its priority. Priority "arbitration" is built into the hardware of the transmit/receive buffer and requires no further processing on the device itself. The message with the lowest address (in binary) gets priority. The address is eight (8) bits long, which allows for 255 unique devices on the same bus. The builder of this system may add any number of addresses as necessary to fit their own purposes.
-
 Communication between devices is through a single pair of twisted wire designated "CAN High" and "CAN Low", ideally with a grounded shield, which is specially terminated on each end. Using twisted pairs is highly recommended. If twisted pair cable is not available, at least a conductive ground shielded wire pair is recommended. The wire pair is referred to as the "bus".
+
+Devices communicate by sending and receiving messages based on address priority. The physical location of each device on the bus is irrelevant to its priority. Priority "arbitration" is built into the hardware of the transmit/receive buffer and requires no further processing on the device itself. The message with the lowest address (in binary) gets priority. The address is eight (8) bits long, which allows for 255 unique devices on the same bus. The builder of this system may add any number of addresses as necessary to fit their own purposes as long as the address length is consistent.
 
 A baseline voltage of 2.5V is maintained on both CAN High and CAN Low by the connected device. The maximum current draw of the bus is limited by the transciever/buffer to 150mA. This is to reduce power consumption and to prevent damage to components in the event of a dead short across the two wires of the bus or to ground. I.E. Rodent damage, accidental shovel strike of a buried line etc... 
 
@@ -26,7 +26,7 @@ Communication to and from the bus passes through the buffer. Physical device arr
 
 Messages start with a "0", which acts as an intent to send. The message length is up to the builder's preference. Since this is intended for simple tasks that aren't mission critical, there is only an address and data. In more durable systems, there should be a length value and checksum value added to messages.
 
-This message has the highest priority and it's data is 32 bits in length:
+This message has the highest priority and its data is 32 bits in length:
 
 | I | Address	| Data					|
 |---|-----------|-----------------------------------------|
