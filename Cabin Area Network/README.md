@@ -8,7 +8,7 @@ Work in progress...
 
 ## Rationale 
 
-While the basic operation of various CAN bus systems is well known, the actual details are often opaque and difficult or impossible to modify. Most CAN components are proprietary and communicate via various hardwired schemes. Reusing off-the-shelf components and other simple electronics should be sufficient to create an alternative which, although significantly limited compared to commercial and proprietary counterparts, is still capable of many ordinary tasks while remaining relatively robust. This system will also implement an addressing system which can be modified without special equipment while in operation.
+While the basic operation of various CAN bus systems is well known, the actual details are often opaque and difficult or impossible to modify. Most CAN components are proprietary and communicate via various hardwired schemes. Reusing off-the-shelf components and other simple electronics should be sufficient to create an alternative which, although significantly limited compared to commercial and proprietary counterparts, is still capable of many ordinary tasks while remaining relatively robust. This system will also implement device self-addressing which can be modified without special equipment while in operation.
 
 **IMPORTANT** **: This system is not intended to replace mission critical applications, such as in vehicles, where the risk to human life in the event of a failure is unacceptable.**
 
@@ -66,11 +66,15 @@ Arbritration at the hardware level in this manner can be accomplished with simpl
 
 Bus end termination when a grounded shield is available:
 
-![CAN bus termination](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cabin%20Area%20Network/canbustermination.png)
+![CAN bus termination](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cabin%20Area%20Network/Wiring/canbustermination.png)
 
 The other end follows the same scheme, but it is not connected to any other "Earth" on its own, except the shield, to avoid ground loops. 
 
-The wire pair is linked together with two 62ohm resistors connected in series and linked to ground via three separate capacitors in parallel. This method reduces signal reflections and attenuates noise from connected devices or any other sources nearby. If a wire pair with a grounded shield is not available, at least one end should be terminated as above, however the capacitors should be skipped on the opposite end. 
+The wire pair is linked together with two 62ohm resistors connected in series and linked to ground via three separate capacitors in parallel. This method reduces signal reflections and attenuates noise from connected devices or any other sources nearby. If a wire pair with a grounded shield is not available, it should still be terminated with a resistor, however the capacitors should be skipped.
+
+Example termination with a 120ohm resistor when no ground is available:
+
+![CAN bus termination](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cabin%20Area%20Network/Wiring/canbustermination_noground.png)
 
 The test addressing system will use a counter such as the CD4017 for determining the length of transmitted bits. Operational amplifiers (op amps) such as the LM741, LM358 or LM324 are used to detect signals on high and low lines and reject noise. A simple logic gate such as the CD4081 may be used for further signalling. A handful of discreet transistors in common values will be used throughout.
 
@@ -95,7 +99,7 @@ Shielded twisted pair (S/FTP):
 | White Brown	| 32.768KHz Low			|
 | Shield/Drain	| Ground			|
 
-Use of unshielded twisted pair (UTP) is not recommended, especially at higher frequencies. Note: a counter other than CD4017, such as CD4040 or CD4060, should be used for frequencies above 4MHz. Op amps should also be changed for frequencies above 1MHz.
+Use of unshielded twisted pair (UTP) is not recommended, especially at higher frequencies. Note: a counter other than CD4017, such as CD4040 or CD4060, or their higher speed CMOS equivalents in the CD74HCT... range should be used for frequencies above 4MHz. Op amps should also be changed for frequencies above 1MHz.
 
 Alternative frequency schemes when using scavenged components from older electronics:
 
