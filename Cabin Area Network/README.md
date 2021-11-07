@@ -18,7 +18,7 @@ Communication between devices is through a single pair of twisted wire designate
 
 Devices communicate by sending and receiving messages based on address priority. The physical location of each device on the bus is irrelevant to its priority. Priority "arbitration" is built into the hardware of the transmit/receive buffer and requires no further processing on the device itself. The message with the lowest address (in binary) gets priority. The address is eight (8) bits long, which allows for 255 unique devices on the same bus. The builder of this system may add any number of addresses as necessary to fit their own purposes as long as the address length is consistent.
 
-A baseline voltage of 2.5V is maintained on both CAN High and CAN Low by the connected device. The maximum current draw of the bus is limited by the transciever/buffer to 150mA. This is to reduce power consumption and to prevent damage to components in the event of a dead short across the two wires of the bus or to ground. I.E. Rodent damage, accidental shovel strike of a buried line etc... 
+A baseline voltage of 2.5V is maintained on both CAN High and CAN Low by the connected device. The maximum current draw of the bus is limited by the transceiver/buffer to 150mA. This is to reduce power consumption and to prevent damage to components in the event of a dead short across the two wires of the bus or to ground. I.E. Rodent damage, accidental shovel strike of a buried line etc... 
 
 ### Messaging
 
@@ -52,7 +52,7 @@ Message frame length should be kept consistent throughout the builder's preferre
 
 All devices receive all message data payloads on the bus at all times. 
 
-The devices connected to their bus transciever/buffer should be electrically isolated as much as possible E.G. Only communicate via optocouplers to the buffer, regulated power supplies if they may share the same power source etc... Each connected device may be given a specific device name or destination as a portion of the 32 bit data payload. The device itself need not know their physical addresses on the bus, but it may be easier to debug if the bus address (set via the 8 DIP switches) is the same as the device destination name. 
+The devices connected to their bus transceiver/buffer should be electrically isolated as much as possible. E.G. Only communicate via optocouplers to the buffer, regulated power supplies if they may share the same power source etc... Each connected device may be given a specific device name or destination as a portion of the 32 bit data payload. The device itself need not know their physical addresses on the bus, but it may be easier to debug if the bus address (set via the 8 DIP switches) is the same as the device destination name. 
 
 One possible arrangement of the 32 bits of the device data payload:
 
@@ -93,7 +93,7 @@ If the transmitting buffer "wins" arbitration, it will send a Clear to Send (CTS
 
 When a device is first connected to the bus or powered on, it will listen on the bus for an address with higher priority than its own. Once detected, it will "bump" or sync its clock pulse to the last verified (not noise) pulse to ensure it can communicate synchronously. Periodic clock syncs are recommended over time to ensure devices don't drift too far away from each other.
 
-Arbritration at the hardware level in this manner can be accomplished with simple electronics such as transistors, op amps, and discreet logic without the use of a microcontroller. E.G. The RTS and CTS can be detected with a logical AND gate IC such as the CD4081.
+Arbitration at the hardware level in this manner can be accomplished with simple electronics such as transistors, op amps, and discreet logic without the use of a microcontroller. E.G. The RTS and CTS can be detected with a logical AND gate IC such as the CD4081.
 
 ### Wiring
 
@@ -150,4 +150,4 @@ Alternative frequency schemes when using scavenged components from older electro
 
 The frequency ranges in the alternate scheme were chosen to allow devices without onboard timing to use sync pulses as a clock for any additional processing. This method is best suited if the transmitting device only uses rudimentary logic and no microcontroller.
 
-
+### TODO Transceiver/Buffer Circuit
