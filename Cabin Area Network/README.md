@@ -48,6 +48,39 @@ This message has the lowest priority of all 255 possible addresses on the bus in
 
 Message frame length should be kept consistent throughout the builder's preferred implementation. The address of each device should be unique on each bus, if it's meant to transmit any data, and can be set via an 8 position DIP switch or similar. Addresses can be modified after installation without having to reprogram the attached device. This allows for easily changing device priorities in the field at a later date.
 
+### Devices
+
+All devices receive all message data payloads on the bus at all times. 
+
+The devices connected to their bus transciever/buffer should be electrically isolated as much as possible E.G. Only communicate via optocouplers to the buffer, regulated power supplies if they may share the same power source etc... Each connected device may be given a specific device name or destination as a portion of the 32 bit data payload. The device itself need not know their physical addresses on the bus, but it may be easier to debug if the bus address (set via the 8 DIP switches) is the same as the device destination name. 
+
+One possible arrangement of the 32 bits of the device data payload:
+
+| Destination	| Origin	| Word/Function	| Value		|
+|-----------|-----------|-----------|---------------------------|
+| 0000 0000	| 0000 0000	| 0000 0000	| 0000 0000	|
+
+
+Many different devices may have the same origin or destination address, however for sensors, it is recommended that the origin be unique and the buffer address priority be higher as well. A device may be configured to ignore the rest of the 32 bits of the data payload if its name isn't in the destination. Or it may note the destination if the connected device is a logger or monitor of some sort. The word or function is also up to the system builder.
+
+E.G. A possible message from a monitor or user console somewhere on the bus to an electric fan to turn on for 30 minutes:
+
+| Destination	| Origin	| Word/Function	| Value		|
+|-----------|-----------|-----------|---------------------------|
+| 0100 0110	| 1000 1000	| 0000 0010	| 0001 1110	|
+
+In this case, the destination, 0100 0110, is the device name of the fan and not the fan's bus address, both of which are entirely up to the builder of the system. The origin, 1000 1000, could be the name of the console. The device can be configured to only accept commands from a specific origin(s). The word or function name is similarly arbitrary and, in this example, is the fan on command of 0000 0010. The value is 30 in 8 bit binary as 0001 1110.
+
+E.G. An elevated temperature alert in the chicken coop could indicate a fire or the presence of an intruder, such as a fox.
+
+| Destination	| Origin	| Word/Function	| Value		|
+|-----------|-----------|-----------|---------------------------|
+| 1000 1000	| 0100 0110	| 0100 0000	| 0000 0011	|
+
+The destination is the monitor or user console in the above example while the origin is another arbitrary address given to a temperature sensor. The word or function indicates here a possible temperature rise. The value indicates a 3 degree increase on the builder's preferred temperature scale in a short period of time.
+
+Function names, and even the device name, may be created with simple logic gates and need not be stored on a microcontroller. Function execution may be carried out with transistors connected to MOSFETs.
+
 ### Signalling
 
 The connected device sends a Request to Send (RTS) signal to its buffer indicating it's ready to transmit its payload of 32 bits. The buffer checks for traffic on the bus for 41 clock pulses, the length of a "frame" in this particular implementation, and sends intent to send (I, which is always "0"), followed by the eight digit address. With each clock pulse and digit transmission of the address, the buffer checks if the value it is sending is the same on the bus.
@@ -116,3 +149,5 @@ Alternative frequency schemes when using scavenged components from older electro
 | Shield/Drain	| Ground			|
 
 The frequency ranges in the alternate scheme were chosen to allow devices without onboard timing to use sync pulses as a clock for any additional processing. This method is best suited if the transmitting device only uses rudimentary logic and no microcontroller.
+
+
