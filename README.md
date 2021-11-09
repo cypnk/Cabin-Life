@@ -29,3 +29,5 @@ A wind harnessing structure for carrying out household tasks and generating elec
 A communications system for handling various housekeeping tasks with devices, using off-the-shelf electronics  
 * Rocking Chair  
 A glider style chair and base platform that can adapt to being upholstered or be left as bare wood (work in progress)  
+* Solar Air Heater  
+A heat exchanger which can work for both closed loop heating of a small space or open loop ventilation (work in progress)  
