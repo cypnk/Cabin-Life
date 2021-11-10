@@ -122,8 +122,8 @@ Shielded twisted pair (S/FTP):
 
 | Wire Color	| Function			|
 |---------------|-------------------------------|
-| Blue		| 10MHz High			|
-| White Blue	| 10MHz Low			|
+| Blue		| 16MHz High			|
+| White Blue	| 16MHz Low			|
 | Green		| 8MHz High			|
 | White Green	| 8MHz Low			|
 | Orange	| 4MHz High			|
@@ -132,14 +132,14 @@ Shielded twisted pair (S/FTP):
 | White Brown	| 32.768KHz Low			|
 | Shield/Drain	| Ground			|
 
-Use of unshielded twisted pair (UTP) is not recommended, especially at higher frequencies. Note: a counter other than CD4017, such as CD4040 or CD4060, or their higher speed CMOS equivalents in the CD74HCT... range should be used for frequencies above 4MHz. Op amps should also be changed for frequencies above 1MHz.
+Use of unshielded twisted pair (UTP) is not recommended, especially at higher frequencies. Note: a counter other than CD4017, such as CD4040 or CD4060, or their higher speed CMOS equivalents in the CD74HC... range should be used for frequencies above 4MHz. Op amps should also be changed for frequencies above 1MHz.
 
 Alternative frequency schemes when using scavenged components from older electronics:
 
 | Wire Color	| Function			|
 |---------------|-------------------------------|
-| Blue		| 11.0592MHz High		|
-| White Blue	| 11.0592MHz Low		|
+| Blue		| 16.384MHz High		|
+| White Blue	| 16.384MHz Low		|
 | Green		| 8.192MHz High			|
 | White Green	| 8.192MHz Low			|
 | Orange	| 4.096MHz High			|
