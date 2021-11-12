@@ -1,11 +1,28 @@
 # Console
 
-A direct access interface for interacting with the Cabin Area Network. This may be built with a general purpose microcontroller with extensions to give basic functionality only relevant to its key purposes. Dedicated keys are added to reduce code overhead on limited storage space and improve direct access to functions. 
+A direct access interface for interacting with the Cabin Area Network. This may be built with a general purpose microcontroller with extensions to give basic functionality only relevant to its key purposes. Dedicated keys are added to reduce code overhead on parts with limited storage space and improve direct access to functions. 
 
 ## Keypad
 The final functionality implemented is up to the builder, however this particular layout is meant to be built into a handheld device which can be operated with only one hand.
 
+Work in progress...
+
 ![console keypad layout](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cabin%20Area%20Network/Console/keyboard-layout.png)
+
+These may change at a later date.
+
+| Key	| Function		|
+|-------|-----------------------|
+| STA	| Get the console status or the selected device status |
+| NEW	| Create a new bus payload or instruction |
+| PRN	| Show pending data payloads or instructions before being sent on the bus |
+| DEL	| Delete entire line (after confirmation) |
+| BKS	| Delete one character back |
+| OK	| Select or enter depending on the current screen |
+| LST	| List available functions on the selected device, if that feature is available |
+| BUS	| Cycle through the available buses, if the console is connected to more than one |
+| DIR	| List all available devices and their statuses, if also sent, on the currently selected bus |
+| OPT	| Set optional parameter, E.G. Reorder instructions, delay etc... |
 
 This switch arrangement should still be usable while wearing thin gloves, when placed in an enclosure. Taller stems will allow greater tactile feedback when little or no ambient light is available to see the keypad at the risk of slightly reduced operational life. If operation with thick gloves or mittens is desired, a wider key spacing and different switches are strongly recommended. The sides with the leads on each switch are oriented vertically.
 
