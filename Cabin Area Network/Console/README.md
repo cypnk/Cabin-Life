@@ -97,5 +97,5 @@ Using the above example, a value may be interpreted based on the transmitted bin
 
 ## Enclosure and Interface
 
-The console may be built into a stationary location on a wall or built into a handheld case which can be plugged into an isolated port. The port interface may be yet another device on the network or simply the live twisted pair wire of the bus(es) and its ground. For mobile consoles, an interface based on the [Device Key](https://github.com/cypnk/Cabin-Life/tree/master/Cabin%20Area%20Network/Device%20Key) is possible.
+The console may be built into a stationary location on a wall or built into a handheld case which can be plugged into an [isolated port](https://github.com/cypnk/Cabin-Life/new/master/Cabin%20Area%20Network/Common%20Port). The port interface may be yet another device on the network or simply the live twisted pair wire of the bus(es) and its ground. For mobile consoles, an interface based on the [Device Key](https://github.com/cypnk/Cabin-Life/tree/master/Cabin%20Area%20Network/Device%20Key) is possible.
 
