@@ -109,6 +109,16 @@ Example termination with a 120ohm resistor when no ground is available:
 
 ![CAN bus termination](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cabin%20Area%20Network/Wiring/canbustermination_noground.png)
 
+Wiring for a [common access port](https://github.com/cypnk/Cabin-Life/tree/master/Cabin%20Area%20Network/Common%20Port) to the bus.
+
+![common access port](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cabin%20Area%20Network/Common%20Port/portwiring.png)
+
+An example of a port being used as a bus termination.
+
+![common port termination](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cabin%20Area%20Network/Common%20Port/portwiringtermination.png)
+
+Using unshielded wires with a port is not recommended.
+
 The test addressing system will use a counter such as the CD4017 for determining the length of transmitted bits. Operational amplifiers (op amps) such as the LM741, LM358 or LM324 are used to detect signals on high and low lines and reject noise. A simple logic gate such as the CD4081 may be used for further signalling. A handful of discreet transistors in common values will be used throughout.
 
 Initial testing will use the 555 timer IC for clock pulse generation due to its ubiquitous availability. The final system will use a base data pulse frequency of 32.768KHz via a dedicated oscillator circuit. A crystal of this value can be easily scavenged from a large number of discarded devices such as TVs and clocks. The frequency is under the maximum operating limits of many older discreet components and simple transistors. This frequency also easily falls within the data sampling rates of many low-level microcontrollers, which themselves are likely running at much higher internal speeds.
