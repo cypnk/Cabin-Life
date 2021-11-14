@@ -28,11 +28,11 @@ This switch arrangement should still be usable while wearing thin gloves, when p
 
 ![console key switches](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cabin%20Area%20Network/Console/keypad-switches.png)
 
-Switch orientation is up to the builder's preference, howevever consistency is critical across all switches. In the above example, the disconnected (normally off when not pressed) poles on each switch are facing each other.
+Switch orientation is up to the builder's preference, however consistency is critical across all switches. In the above example, the disconnected (normally off when not pressed) poles on each switch are facing each other.
 
 Note: When reusing scavenged tactile switches of a similar style, check for continuity across poles 1 to 2 and 3 to 4 when the switch is off (not being pressed) and continuity across poles 2 to 4 and 1 to 3 when the switch is on (pressed). The disconnected (normally off when not pressed) pairs are bent in the same direction. Lack of continuity or intermittent continuity could indicate internal corrosion.
 
-## Instructions
+## Key Signals
 
 Because the devices on a bus have their own definitions for words or functions and values, there should be some consistency when implementing commands to control them. This is one possible interpretation for bus transmission control handling and device commands to be translated internally.
 
@@ -92,4 +92,10 @@ Because the devices on a bus have their own definitions for words or functions a
 To select different values in one key, E.G. "2" as 2, A, B, or C, a timer may be implemented to cycle through the character labels and values if another key pressed is the same key ID within a very short period of time.
 
 It may be more simple and practical to implement one set of binary values per key press. E.G. Label "A" as only uppercase with 0100 0001 instead of both uppercase and lowercase "a" with 0110 0001. And "\*", found on most off-the-shelf "phone style" keypads, only as 0000 1000 for backspace instead of both backspace and 0010 1010. Since other devices on the bus may only have primitive components to implement commands, this will also significantly reduce complexity.
+
+Using the above example, a value may be interpreted based on the transmitted binary. E.G. A device on the network which understands "minutes" and "seconds" can take the highest 4 bits of the value portion of the [32 bit message payload](https://github.com/cypnk/Cabin-Life/tree/master/Cabin%20Area%20Network#devices) as either "M" or "S" and the lowest to mean the duration. So an interpreted value of 1101 0011 could mean 30 minutes and 0011 0011 could mean 30 seconds. A combined value of "30 minutes and 30 seconds" if they're received back to back, or 1111 0000 command for letter "O" and zero meaning "override previous" value. A value of 0000 0000 could be "OFF". There is some overlap in letters here such as "C" and "S" when only using the lower 4 bits, however this level of logic can be achieved without the use of a microcontroller on the device being addressed.
+
+## Enclosure and Interface
+
+The console may be built into a stationary location on a wall or built into a handheld case which can be plugged into an isolated port. The port interface may be yet another device on the network or simply the live twisted pair wire of the bus(es) and its ground. For mobile consoles, an interface based on the [Device Key](https://github.com/cypnk/Cabin-Life/tree/master/Cabin%20Area%20Network/Device%20Key) is possible.
 
