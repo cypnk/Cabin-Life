@@ -22,7 +22,7 @@ Work in progress...
 
 ## Wiring
 
-Basic port wiring connections are via a zener barrier in a "star" configuration to prevent high voltage spikes on either line or the ground itself from reaching the bus from the device being connected or from the bus to the device. The difference in voltage potential between CAN High and CAN Low is what matters. The 1N750 in this example has a breakdown voltage of 4.7V, however a 1N4733A or similar zener at a 5.1V breakdown may be used. The devices should be tolerant of at least twice this voltage.
+Basic port wiring connections are via a zener barrier in a "star" configuration to prevent high voltage spikes on either line or the ground itself from reaching the bus from the device being connected or from the bus to the device. There are 100ohm resistors in series at the tip and ring inputs as the connecting device would switch its signals based on its own power supply, which may be higher than the typical CAN High signal pulse of 3.5V. The difference in voltage potential between CAN High and CAN Low is what matters. The 1N750 in this example has a breakdown voltage of 4.7V, however a 1N4733A or similar zener at a 5.1V breakdown may be used. The devices should be tolerant of at least twice this voltage.
 
 ![port wiring](https://github.com/cypnk/Cabin-Life/blob/master/Cabin%20Area%20Network/Common%20Port/portwiring.png)
 
