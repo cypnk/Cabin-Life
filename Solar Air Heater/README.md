@@ -54,10 +54,14 @@ The outer panel is installed for closed loop air heating. For open loop air exch
 
 ![outer panel](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Solar%20Air%20Heater/outer-panel-depth.png)
 
-The front face of the heater can be ordinary glass, however acrylic sheets or other durable plastic material may be used if glass is not available or prohibitively expensive. The purpose of the front surface is only to reduce heat leakage to the wind and is only held in place with silicone.
+The front face of the heater can be ordinary glass, however acrylic sheets or other durable plastic material may be used if glass is not available or prohibitively expensive. The purpose of the front surface is to reduce heat leakage to the wind and is only held in place with silicone.
 
 ![outer face](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Solar%20Air%20Heater/outer-cover.png)
 
 ![outer cover closeup](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Solar%20Air%20Heater/outer-cover-closeup.png)
 
-The exterior of the frame should be edged with a strip of the same building material to better secure the front cover and to reduce the sail effect in high wind areas. This "lip" also reduces the liklihood of water intrusion during rains, increasing the lifetime of the corrugated panels.
+The exterior of the frame should be edged with a strip of similar building material, half the thickness of the frame, to better secure the front cover and to reduce the sail effect in high wind areas. This "lip" also reduces the likelihood of water intrusion during rains, increasing the lifetime of the corrugated panels.
+
+![side edge](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Solar%20Air%20Heater/edging-side.png)
+
+![top corner edge](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Solar%20Air%20Heater/edging-top.png)
