@@ -30,4 +30,5 @@ A communications system for handling various housekeeping tasks with devices, us
 * Rocking Chair  
 A glider style chair and base platform that can adapt to being upholstered or be left as bare wood (work in progress)  
 * Solar Air Heater  
-A heat exchanger which can work for both closed loop heating of a small space or open loop ventilation (work in progress)  
+A heat exchanger which can work for both closed loop heating of a small space or open loop ventilation  
+![solar air heater](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Solar%20Air%20Heater/solarairheater.png)  
