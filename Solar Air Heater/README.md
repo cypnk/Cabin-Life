@@ -9,4 +9,4 @@ One corrugated sheet extends the entire interior height of the frame while the s
 
 Work in progress...
 
-![solar air heater](https://github.com/cypnk/Cabin-Life/Solar%20Air%20Heater/solarairheater.png)
+![solar air heater](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Solar%20Air%20Heater/solarairheater.png)
