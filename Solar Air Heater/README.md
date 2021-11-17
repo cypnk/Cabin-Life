@@ -18,7 +18,7 @@ This version of the heater does not use any special insulation for simplicity, h
 
 ![corrugated metal panel](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Solar%20Air%20Heater/corrugated-panel.png)
 
-One corrugated sheet extends the entire interior height of the frame interior, with a small gap for thermal expansion, while the second inner panel is cut short to rest on a shelf, which will create the entry into the air chamber. The full height corrugated sheet need not be fastened to the frame and can be held in place with steel wire. The shorter panel is held in place with steel wire and silicone on the bottom and sides. Using wood strips to fasten the sheets on the back is not recommended due to the possibilty of warping in high heat. The steel wire will also sag, along with the corrugated sheet, but it should not completely block the air cavity.
+One corrugated sheet extends the entire interior height of the frame interior, with a small gap for thermal expansion, while the second inner panel is cut short to rest on a shelf, which will create the entry into the air chamber. The full height corrugated sheet need not be fastened to the frame and can be held in place with steel wire. The shorter panel is held in place with steel wire and silicone on the bottom and sides. Alternatively, the panel edges may be sandwiched between thinner vertical strips of wood. Using wood strips across the middle of the sheets is not recommended due to the possibilty of warping in high heat. The steel wire will also sag, along with the corrugated sheet, but it should not completely block the air cavity.
 
 The frame of the heater may be made from 3/4 inch treated plywood or other suitable lumber of similar thickness. The exact dimensions are not absolutely critical, however the inner support for the first corrugated panel should be slightly less than 1/2 the depth of the entire assembly. The frame in this example is approximately 23" wide and 60" tall which would allow it to capture heat from sunrise to sunset if facing south in the northern hemisphere.
 
@@ -30,7 +30,7 @@ The rear of the assembly has two cuts. The lower cut allows air into the heater 
 
 ![rear cavities](https://github.com/cypnk/Cabin-Life/blob/master/Solar%20Air%20Heater/rear-cavities.png)
 
-The inner shelf supports the inner corrugated panel. The air from the interior travels over the inner panel. The inner corrugated panel may be supported with steel wire and sealed in place with silicone.
+The inner shelf supports the inner corrugated panel. The air from the interior travels over the inner panel. The inner corrugated panel may be supported with steel wire and sealed in place with silicone or the above edge strip method.
 
 ![shelf bottom](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Solar%20Air%20Heater/shelf-bottom.png)
 
