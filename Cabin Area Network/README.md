@@ -103,7 +103,7 @@ Bus end termination when a grounded shield is available:
 
 The other end follows the same scheme, but it is not connected to any other "Earth" on its own, except the shield, to avoid ground loops. 
 
-The wire pair is linked together with two 62ohm resistors connected in series and linked to ground via three separate capacitors in parallel. This method reduces signal reflections and attenuates noise from connected devices or any other sources nearby. If a wire pair with a grounded shield is not available, it should still be terminated with a resistor, however the capacitors should be skipped.
+The wire pair is linked together with two 68ohm resistors connected in series and linked to ground via three separate capacitors in parallel. This method reduces signal reflections and attenuates noise from connected devices or any other sources nearby. If a wire pair with a grounded shield is not available, it should still be terminated with a resistor, however the capacitors should be skipped.
 
 Example termination with a 120ohm resistor when no ground is available:
 
