@@ -33,3 +33,17 @@ Wiring scheme when the port on either end is the last on the bus. This method of
 ![port wiring](https://github.com/cypnk/Cabin-Life/blob/master/Cabin%20Area%20Network/Common%20Port/portwiringtermination.png)
 
 Note, one of the ports on either end of the bus should have its shield ground connected to Earth if the bus is terminated in this fashion, but not both.
+
+The outdoor version of the port requires special consideration due to possible external surge events such as static electricity and lightning proximity. The contacts to the rest of the bus need to be protected while allowing signals to pass through with relatively little attenuation. On the transceiver side, this may be handled with coupling transformers or similar passive components or [optocouplers](https://en.wikipedia.org/wiki/Opto-isolator) and similar active components, however ports must be relatively more robust, size optimized, and still remain inexpensive.
+
+The bus current should not exceed 200mA and the transceivers aren't meant to provide more than 150mA during normal operation. Therefore, the current entering or leaving the bus should not exceed 500mA at any time. Fuses should be added in series between the tip contact and CAN High line and the ring contact and CAN Low line of rest of the port circuit.
+
+Fuses, while effective at stopping sustained high voltage, are less capable of handling fast transient high voltage events. In commercial equipment is generally handled via transient voltage suppression (TVS) diodes which may be scavenged from older equipment, however their thresholds may not be suitable for this application. As an alternative, a spark gap may be used for static events over shorter distances. Since such a gap must be isolated from its environment, allocating additional space to an already cramped location such as an outdoor enclosure will be infeasible. In this instance, normally open (N/O) reed switches may suffice to protect the circuit as they're already in sealed glass envelopes and require very little space.
+
+Grounding the bus is more delicate as ground loops may introduce undesired operation of devices. The bus should only be grounded at one location. The port will need to handle this ground connection while also directing suppressed transients to Earth, where the port enclosure is also connected. "Earth", in this instance, refers to the physical conductor to the soil where the outdoor port is installed and "ground" refers to the signal cable's shield, which is terminated elsewhere.
+
+During normal operation, there should be no sustained voltage on the bus shield, therefore any sustained excess voltage should be sent to the enclosure and then to Earth while still providing normal "0" reference to the device connected to the port avoiding ground loops. This dual role may be handled with a low value inductor and diode in series.
+
+One possible arrangement for the outdoor port circuit using these concepts.
+
+![protected port](https://github.com/cypnk/Cabin-Life/blob/master/Cabin%20Area%20Network/Common%20Port/protectedport.png)![protectedport](https://user-images.githubusercontent.com/32854305/142786177-3c4cd3f9-ed48-4d2b-9583-ba185e4952a0.png)
