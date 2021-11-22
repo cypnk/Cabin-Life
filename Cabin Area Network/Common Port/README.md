@@ -47,3 +47,9 @@ During normal operation, there should be no sustained voltage on the bus shield,
 One possible arrangement for the outdoor port circuit using these concepts.
 
 ![protectedport](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cabin%20Area%20Network/Common%20Port/protectedport.png)
+
+For added security of the outdoor port, is a disconnecting switch set may be added with the aid of an outdoor-rated cabinet lock. Since the spark gaps are using ordinary normally open reed switches, 3 additional reed switches of the same type may be added to create a Break-Before-Make disconnector using a single magnet attached to the lever of the lock. When the port is "locked" the reed switches to the main bus lines should be opened and the switches closest to the external socket should be closed, therefore any attempted communication will be shorted to Earth, including any static or other high voltage events. When the port is "unlocked", the switches closest to the socket are opened and revert to their role as spark gaps, while the three bus switches are closed or "Enabled".
+
+![protectedport](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cabin%20Area%20Network/Common%20Port/lockingport.png)
+
+If the magnet loses its strength at some point or if it is accidentally detached, in this configuration, the port should safely disable itself as both sets of reed switches will revert to being opened.
