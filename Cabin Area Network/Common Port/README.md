@@ -46,4 +46,4 @@ During normal operation, there should be no sustained voltage on the bus shield,
 
 One possible arrangement for the outdoor port circuit using these concepts.
 
-![protected port](https://github.com/cypnk/Cabin-Life/blob/master/Cabin%20Area%20Network/Common%20Port/protectedport.png)![protectedport](https://user-images.githubusercontent.com/32854305/142786177-3c4cd3f9-ed48-4d2b-9583-ba185e4952a0.png)
+![protectedport](https://user-images.githubusercontent.com/32854305/142786177-3c4cd3f9-ed48-4d2b-9583-ba185e4952a0.png)
