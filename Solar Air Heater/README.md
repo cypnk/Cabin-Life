@@ -14,7 +14,7 @@ Corrugated steel is relatively easy to obtain or scavange if necessary. In addit
 
 The heater frame is constructed from outdoor rated plywood and the main heating elements are two corrugated steel panels which are painted black to absorb greater solar thermal radiation and protect them from corrosion. The paint should be thermally stable and should be off-gassed before installing the heater. A fan system may be added to the lower cavity to push air into the panel. With enough of a thermal gradient, a series of peltier modules in contact with one of the corrugated sheets may be used to power a small fan, which would eliminate the need for a dedicated power supply.
 
-This version of the heater does not use any special insulation for simplicity, however styrofoam sheets may be added to the exterior of the frame to concentrate the heating effect. It is important that the styrofoam, if used, not come into direct contact with any of the heated metal.
+This version of the heater does not use any special insulation except a single styrofoam sheet at the rear panel for simplicity, however additional insulation may be added to the sides of the frame to concentrate the heating effect. It is important that the styrofoam, if used, not come into direct contact with any of the heated metal.
 
 ![corrugated metal panel](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Solar%20Air%20Heater/corrugated-panel.png)
 
@@ -30,7 +30,7 @@ The rear of the assembly has two cuts. The lower cut allows air into the heater 
 
 ![rear cavities](https://github.com/cypnk/Cabin-Life/blob/master/Solar%20Air%20Heater/rear-cavities.png)
 
-The inner shelf supports the inner corrugated panel. The air from the interior travels over the inner panel. The inner corrugated panel may be supported with steel wire and sealed in place with silicone or the above edge strip method.
+The inner shelf supports the inner corrugated panel. The air from the interior travels over the inner panel. The inner corrugated panel may be supported with steel wire and sealed in place with silicone or the above edge strip method. Note, the thickness of the back panel includes the styrofoam insulation.
 
 ![shelf bottom](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Solar%20Air%20Heater/shelf-bottom.png)
 
