@@ -173,3 +173,6 @@ This will be the Type 1 variation for lower input devices, microcontrollers, and
 
 ![combined 5V - 3.3V power supply](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Power%20Supply/combined5-3Vpowersupply.png)
 
+This is a preliminary sketch of an adjustable power supply which may be plugged into a stepped down and rectified AC source or a DC source such as a battery or solar panel. It is intended to span across Types 1 - 5 with further refinements. This will use actual components and will later have its own PCB. The voltage references will come from a set of TL431 adjustable regulators which has a relatively flat output across a wide temperature range. The output voltage and current controller is the LM324 quad opamp IC, however this may be substitued for another type. The schematic has separated each of the opamps in the IC only for convenience and there is only one such chip in the circuit. The inrush current limiter control MOSFET is an IRLIZ44N in the circuit, although the actual build will likely use an IRFZ44N instead. The exact relay model in the inrush current limiter is not important as long as it has similar tolerances.
+
+![split rail adjustable power supply](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Power%20Supply/splitrail.png)
