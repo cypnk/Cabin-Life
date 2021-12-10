@@ -18,8 +18,8 @@ Premade Zinc bromide can be purchased, however it may not be readily available i
 **Test cell components:**
 * Heavy duty, reclosable, plastic storage bag
 * 14-16AWG wire with outdoor rated insulator
-* Zinc wire and/or zinc strips
-* Graphite foil sheets without binders or inserts. Available as gaskets or seals for high-temperature applications
+* Zinc wire and/or zinc strips (negative electrode)
+* Graphite foil sheets (positive electrode) without binders or inserts. Available as gaskets or seals for high-temperature applications
   * A carbon rod electrode can be substituted, if available 
 
 **Final cell components:**
@@ -29,7 +29,8 @@ Premade Zinc bromide can be purchased, however it may not be readily available i
 * Pressure fit end caps
 * 12AWG wire with outdoor rated insulator
 * Zinc flashing roll or similar Zinc strip at least 2.5" or 6.25cm to 6.5cm wide (or similar strip which can be coiled)
-* Graphite foil sheets or carbon rod electrodes
+* Graphite foil sheets or carbon rod electrodes 
+* Carbon foam (optional, but will increase charge/discharge efficiency by adding surface area to positive electrode)
 
 **Tools and utensils:**
 * Metal snips, also called tin snips or aviation snips
