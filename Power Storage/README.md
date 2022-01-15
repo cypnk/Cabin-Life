@@ -32,6 +32,8 @@ Premade Zinc bromide can be purchased, however it may not be readily available i
 * Graphite foil sheets or carbon rod electrodes 
 * Carbon foam (optional, but will increase charge/discharge efficiency by adding surface area to positive electrode)
 
+As an alternative to pre-made carbon foam, a powder organic material, such as table sugar, can be heated with a finely mixed blowing agent until carbonized. The material should be left to cool before exposing it to ambient air. The resulting carbon material can then be formed into an electrode with a very high surface area. The greater the surface area of the electrodes, the greater the amps the battery is able to handle.
+
 **Tools and utensils:**
 * Metal snips, also called tin snips or aviation snips
 * Pliers
