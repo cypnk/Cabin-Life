@@ -41,9 +41,23 @@ As an alternative to pre-made carbon foam, a powder organic material, such as ta
 * Glass measuring cup showing milliliter increments
 * Digital scale with at least 800g limit and 0.1g resolution
 * Wooden or plastic spoons
-* Metal container or large tin can capable of holding 1L or a dedicated double-boiler
+* Metal container or large tin with an inner glass container capable of holding 1L or a dedicated double-boiler
 * Stove or heater
 * Gloves
+
+**Electrolyte chemistry:**  
+Batch production is recommended instead of large volumes to reduce cost and the impact of any errors during production. Small batches are also more more practical to use in mutiple test cell configurations.
+
+* Dissolve 556g Sodium bromide (NaBr) in 500ml hot water
+* Dissolve 575g Zinc sulfate (ZnSO₄) in 500ml hot water
+
+The water should be hot, but not boiling.
+
+The double boiler may be used to keep the temperature adequate while dissolving the chemicals separately. Once thoroughly dissolved, the two solutions can be mixed together in another glass container. This ensures the reaction is as thorough as possible. Note: This composition can be made slightly excess in Zinc sulfate.
+
+After mixing thoroughly, the solution is then evaporated, which can be done in the stove under a low setting or in the double boiler under gentle heat. Sodium sulfate (Na₂SO₄) should precipitate out as a white salt in the container, leaving behind nearly pure Zinc bromide in the solution. Evaporation should be stopped when the volume of the solution has gone down to approximately ~200ml.
+
+The Zinc bromide solution can then be poured through filter paper or through a paper towel to remove any residual Sodium sulfate crystals. Some dissolved Sodium sulfate can be added back into the Zinc bromide solution as needed to improve charging efficiency. This final step is left up to the builder.
 
 Assembly and final design in progress...
 
