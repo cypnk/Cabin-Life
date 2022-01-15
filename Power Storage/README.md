@@ -57,16 +57,20 @@ The double boiler may be used to keep the temperature adequate while dissolving 
 
 After mixing thoroughly, the solution is then evaporated, which can be done in the stove under a low setting or in the double boiler under gentle heat. Sodium sulfate (Na₂SO₄) should precipitate out as a white salt in the container, leaving behind nearly pure Zinc bromide in the solution. Evaporation should be stopped when the volume of the solution has gone down to approximately ~200ml.
 
-The Zinc bromide solution can then be poured through filter paper or through a paper towel to remove any residual Sodium sulfate crystals. Some dissolved Sodium sulfate can be added back into the Zinc bromide solution as needed to improve charging efficiency. This final step is left up to the builder.
+The Zinc bromide solution can then be poured through filter paper or through a paper towel to remove any residual Sodium sulfate crystals. The internal resistance of the cell rises as it is fully charged, making it inherently safe from overcharging, however this reduces charging efficiency. Some dissolved Sodium sulfate can be added back into the Zinc bromide solution as needed to improve charging efficiency. This final step is left up to the builder.
 
 ### Cell physical properties:
 Typically, the positive carbon electrode is kept below the negative Zinc electrode due the charging behavior of this electrolyte chemistry.
 
-During the charge cycle, Bromine will be produced in the electrolyte at the positive carbon electrode and Zinc in the solution will start depositing on the negative electrode forming Zinc dendrites. The self-discharge will accellerate if the negative Zinc electrode comes into contact with the Bromine. Closer proximity of the electrodes will lower resistance and increase efficiency at the cost of higher self-discharge.
+During the charge cycle, Bromine will be produced in the electrolyte at the positive carbon electrode and Zinc in the solution will start depositing on the negative electrode forming Zinc dendrites. Closer proximity of the electrodes will lower resistance and increase efficiency at the cost of higher self-discharge. The self-discharge will accelerate if the negative Zinc electrode comes into contact with the Bromine, however this is unavoidable due to diffusion unless there's a physical separator between the electrodes which is permeable to ions.
 
-The electrolyte will change color to appear more red and brown as the Bromine concentration rises while charging. The Bromine will settle in the cell and so both electrodes should be elevated off the bottom of the container to let it collect there while keeping fresh Zinc bromide in contact with the electrodes above.
+The electrolyte will change color to appear more red and brown as the Bromine concentration rises while charging. The Bromine will settle in the cell and so both electrodes should be elevated off the bottom of the container to let it collect there while keeping fresh Zinc bromide in contact with the electrodes above. The cell should be considered fully charged when the Bromine level rises up to the negative Zinc electrode.
 
-As the cell discharges, either by through a connected load or through self-discharge over time, the solution should lose its red/brown color. The cell is fully discharged when the solution becomes clear.
+As the cell discharges, either by through a connected load or through self-discharge over time, the solution should lose its red/brown color. The cell is fully discharged when the solution becomes clear. 
+
+If bubbles appear at the electrodes during the charging cycle, the charging current is too high. To reduce the likelihood of hydrogen gas buildup, the charging current should be gradually increased up to a safe level in the test cell. The maximum output current and charge current is highly dependent on the electrode surface area and their proximity to each other. Typical cell voltage should be ~1.5V.
+
+Bromine can be corrosive to most forms of plastic and the use of sewer-rated PVC is recommended for the final cell construction intended for permanent installation. Silicone may be used to seal around protrusions in the container to prevent contamination and to reduce electrolyte evaporation.
 
 Assembly and final design in progress...
 
