@@ -66,9 +66,11 @@ During the charge cycle, Bromine will be produced in the electrolyte at the posi
 
 The electrolyte will change color to appear more red and brown as the Bromine concentration rises while charging. The Bromine will settle in the cell and so both electrodes should be elevated off the bottom of the container to let it collect there while keeping fresh Zinc bromide in contact with the electrodes above. The cell should be considered fully charged when the Bromine level rises up to the negative Zinc electrode.
 
-As the cell discharges, either by through a connected load or through self-discharge over time, the solution should lose its red/brown color. The cell is fully discharged when the solution becomes clear. 
+As the cell discharges, either through a connected load or through self-discharge over time, the solution should lose its red/brown color. The cell is fully discharged when the solution becomes clear. The charging circuit should measure the rising resistance in the cell as it is fully charged. The charging cutoff should be well before reaching maximum resistance to avoid damage to the power source such as solar panels or AC/DC inverter.
 
-If bubbles appear at the electrodes during the charging cycle, the charging current is too high. To reduce the likelihood of hydrogen gas buildup, the charging current should be gradually increased up to a safe level in the test cell. The maximum output current and charge current is highly dependent on the electrode surface area and their proximity to each other. Typical cell voltage should be ~1.5V.
+If bubbles appear at the electrodes during the charging cycle, the charging current is too high. To reduce the likelihood of hydrogen gas buildup, the charging current should be gradually increased up to a safe level in the test cell. The maximum output current and charge current is highly dependent on the electrode surface area and their proximity to each other. 
+
+Typical cell voltage should be ~1.5V and at least 18 cells may need to be wired in series to produce a 24V bank with enough charging overhead. The capacity of the battery is directly proportional to the volume of electrolyte in each cell.
 
 Bromine can be corrosive to most forms of plastic and the use of sewer-rated PVC is recommended for the final cell construction intended for permanent installation. Silicone may be used to seal around protrusions in the container to prevent contamination and to reduce electrolyte evaporation.
 
