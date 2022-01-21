@@ -32,5 +32,7 @@ A glider style chair and base platform that can adapt to being upholstered or be
 * [Solar Air Heater](https://github.com/cypnk/Cabin-Life/tree/master/Solar%20Air%20Heater)  
 A heat exchanger which can work for both closed loop heating of a small space or open loop ventilation  
 ![solar air heater](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Solar%20Air%20Heater/solarairheater.png)  
-* [Lock](https://github.com/cypnk/Cabin-Life/tree/master/Lock)
-A set of hardware mechanisms to keep curious wildlife out of sensitive areas (work in progress)
+* [Lock](https://github.com/cypnk/Cabin-Life/tree/master/Lock)  
+A set of hardware mechanisms to keep curious wildlife out of sensitive areas (work in progress)  
+* Well Pump  
+A non-electric shallow well pumping mechanism which can be operated manually or attached to a windmill (work in progress)
