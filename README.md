@@ -1,5 +1,7 @@
-# Cabin-Life
-Collection of things for cabin living
+# Cabin Life
+Collection of things for cabin living.
+
+The project is an exploration of ideas. Always follow appropriate safety procedures, consult local laws and ordinances regarding safety and construction, and never assume anything is safe until verified. The author is not responsible for any damage to property, injuries, or worse, which may be caused by using any of the information presented here.
 
 ## Projects
 * [Wood stove](https://github.com/cypnk/Cabin-Life/tree/master/Wood%20Stove)  
