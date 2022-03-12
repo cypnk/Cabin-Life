@@ -6,6 +6,13 @@ All devices on the network act independently without the use of a "Master" contr
 
 Work in progress...
 
+Reference material:
+* [Electronics](https://en.wikibooks.org/wiki/Electronics)
+* [Practical Electronics](https://en.wikibooks.org/wiki/Practical_Electronics)
+* [Digital Circuits](https://en.wikibooks.org/wiki/Digital_Circuits)
+* [Lessons In Electric Circuits](https://www.ibiblio.org/kuphaldt/electricCircuits/)
+
+
 ## Rationale 
 
 While the basic operation of various CAN bus systems is well known, the actual details are often opaque and difficult or impossible to modify. Most CAN components are proprietary and communicate via various hardwired schemes. Reusing off-the-shelf components and other simple electronics should be sufficient to create an alternative which, although significantly limited compared to commercial and proprietary counterparts, is still capable of many ordinary tasks while remaining relatively robust. This system will also implement device self-addressing which can be modified without special equipment while in operation.
