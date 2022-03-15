@@ -120,6 +120,8 @@ Wiring for a [common access port](https://github.com/cypnk/Cabin-Life/tree/maste
 
 ![common access port](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cabin%20Area%20Network/Common%20Port/portwiring.png)
 
+The common access port uses typical 1/4 inch or 6.35mm stereo [audio jacks](https://en.wikipedia.org/wiki/Phone_connector_(audio)) due to their ubiquity, low cost, and resilience while being connected and disconnected many times without significant wear.
+
 An example of a port being used as a bus termination.
 
 ![common port termination](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cabin%20Area%20Network/Common%20Port/portwiringtermination.png)
