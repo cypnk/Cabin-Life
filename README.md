@@ -37,4 +37,7 @@ A heat exchanger which can work for both closed loop heating of a small space or
 * [Lock](https://github.com/cypnk/Cabin-Life/tree/master/Lock)  
 A set of hardware mechanisms to keep curious wildlife out of sensitive areas (work in progress)  
 * Well Pump  
-A non-electric shallow well pumping mechanism which can be operated manually or attached to a windmill (work in progress)
+A non-electric shallow well pumping mechanism which can be operated manually or attached to a windmill (work in progress)  
+* [Structure Foundation](https://github.com/cypnk/Cabin-Life/tree/master/Structure%20Foundation)  
+A simple structural base for most types of shelters and tiny cabins    
+![foundation base](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Structure%20Foundation/foundation1.png)  
