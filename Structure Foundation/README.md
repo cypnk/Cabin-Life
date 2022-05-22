@@ -3,6 +3,14 @@ This is a common structural base for most types of small shelters or tiny cabins
 
 The base consists of wooden members which may be constructed on skids (beams) of pressure treated lumber. In this example, 4"x4" posts up to a desired length are laid on concrete pads or ground which has been prepared for good drainage E.G. Crushed and leveled stone. The structure may also be built on piers, however bracing and reinforcement will be necessary.
 
+Materials:
+* 4"x4" Pressure treated lumber posts
+* 4'x8' Pressure treated plywood sheets (at least 1" thickness, tongue and groove recommened)
+* 4'x8' Interior rated plywood, OSB sheets, or flooring rated composite sheets
+* Treated lumber compatible or decking rated 3" screws
+* Construction adhesive
+* Insulation (optional)
+
 Overall base structure with the top panel rendered transparent to see the joist layout.
 
 ![small foundation](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Structure%20Foundation/foundation1.png)
