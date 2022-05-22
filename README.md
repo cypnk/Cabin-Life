@@ -29,6 +29,7 @@ A simple and hygenic system to discard and potentially reuse human waste (work i
 A wind harnessing structure for carrying out household tasks and generating electricity (work in progress)  
 * [Cabin Area Network](https://github.com/cypnk/Cabin-Life/tree/master/Cabin%20Area%20Network)  
 A communications system for handling various housekeeping tasks with devices, using off-the-shelf electronics  
+![port wiring](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cabin%20Area%20Network/Common%20Port/portwiringtermination.png)  
 * Rocking Chair  
 A glider style chair and base platform that can adapt to being upholstered or be left as bare wood (work in progress)  
 * [Solar Air Heater](https://github.com/cypnk/Cabin-Life/tree/master/Solar%20Air%20Heater)  
