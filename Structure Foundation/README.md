@@ -5,8 +5,8 @@ The base consists of wooden members which may be constructed on skids (beams) of
 
 Materials:
 * 4"x4" Pressure treated lumber posts
-* 4'x8' Pressure treated plywood sheets (at least 1" thickness, tongue and groove recommened)
-* 4'x8' Interior rated plywood, OSB sheets, or flooring rated composite sheets
+* 4'x8' Pressure treated plywood sheets (at least 3/4" thickness, tongue and groove recommened)
+* 4'x8' Interior rated plywood, OSB sheets, or flooring rated composite sheets (5/8" - 1" thickness, tongue and groove recommened)
 * Treated lumber compatible or decking rated 3" screws
 * Construction adhesive
 * Insulation (optional)
