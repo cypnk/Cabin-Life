@@ -3,6 +3,8 @@ This is a common structural base for most types of small shelters or tiny cabins
 
 The base consists of wooden members which may be constructed on skids (beams) of pressure treated lumber. In this example, 4"x4" posts up to a desired length are laid on concrete pads or ground which has been prepared for good drainage E.G. Crushed and leveled stone. The structure may also be built on piers, however bracing and reinforcement will be necessary.
 
+This design has an accompanying [blog post](https://rc.sh2.us/2020/07/19/building-foundations) with further design rationale.
+
 ## Materials
 * Landscape fabric to inhibit root intrusion under the structure
 * Crushed stone or gravel or similar ground preparation material with good drainage and increased friction to prevent movement (must not be smooth for better friction)
