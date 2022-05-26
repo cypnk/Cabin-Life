@@ -18,8 +18,9 @@ This design has an accompanying [blog post](https://rc.sh2.us/2020/07/19/buildin
 * Insulation (optional) non-fiber, reflective, "bubble wrap" style recommended to avoid attracting rodents as with fiber-style insulation, and to act as a vapor barrier
 
 ## Tools
-* 4' Or longer level
 * Impact driver or powered screwdriver and bits (for screws) or hammer (for nails)
+* Powered circular saw (recommended) or hand saw
+* 4' Or longer level
 * Ground tamper (recommended)
 * Shovel
 
