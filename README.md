@@ -41,4 +41,7 @@ A set of hardware mechanisms to keep curious wildlife out of sensitive areas (wo
 A non-electric shallow well pumping mechanism which can be operated manually or attached to a windmill (work in progress)  
 * [Structure Foundation](https://github.com/cypnk/Cabin-Life/tree/master/Structure%20Foundation)  
 A simple structural base for most types of shelters and tiny cabins    
-![foundation base](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Structure%20Foundation/foundation1.png)  
+![foundation base](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Structure%20Foundation/foundation1.png)    
+* [Structure Framing](https://github.com/cypnk/Cabin-Life/tree/master/Structure%20Framing)  
+A framing layout fit for various multi-purpose structures
+![framing overview](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Structure%20Framing/framing1.png)  
