@@ -55,3 +55,11 @@ When the port is "locked" the reed switches to the main bus lines should be open
 ![protectedport](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cabin%20Area%20Network/Common%20Port/lockingport.png)
 
 If the magnet loses its strength at some point or if it is accidentally detached, in this configuration, the port should safely disable itself as both sets of reed switches will revert to being opened. This circuit requires no external power to serve its function.
+
+Physical arrangement of the jack and plug.
+
+![plug and jack detached](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cabin%20Area%20Network/Common%20Port/plug-jack-detached.png)
+
+The plug makes connection with the sleeve first, which allows the system to be grounded before communication begins.
+
+Most new connection jacks come with a "sense" lead which is shorted to the "tip" lead when no plug is present. The sense lead breaks connection with the tip lead when a plug is fully inserted all the way to the end. This feature may be utilized for additional decoupling and safety by disabling all signals to and from the port until a plug is inserted.
