@@ -126,6 +126,10 @@ An example of a port being used as a bus termination.
 
 ![common port termination](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cabin%20Area%20Network/Common%20Port/portwiringtermination.png)
 
+Physical arrangement of the jack and plug.
+
+![plug and jack detached](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cabin%20Area%20Network/Common%20Port/plug-jack-detached.png)
+
 Using unshielded wires with a port is not recommended.
 
 The test addressing system will use a counter such as the CD4017 for determining the length of transmitted bits. Operational amplifiers (op amps) such as the LM741, LM358 or LM324 are used to detect signals on high and low lines and reject noise. A simple logic gate such as the CD4081 may be used for further signalling. A handful of discreet transistors in common values will be used throughout.
