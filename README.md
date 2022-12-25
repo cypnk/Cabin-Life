@@ -28,7 +28,7 @@ A simple and hygenic system to discard and potentially reuse human waste (work i
 * Windmill  
 A wind harnessing structure for carrying out household tasks and generating electricity (work in progress)  
 * [Cabin Area Network](https://github.com/cypnk/Cabin-Life/tree/master/Cabin%20Area%20Network)  
-A communications system for handling various housekeeping tasks with devices, using off-the-shelf electronics  
+A communications system for handling various housekeeping tasks with devices, using off-the-shelf electronics (work in progress)  
 ![port wiring](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cabin%20Area%20Network/Common%20Port/portwiringtermination.png)  
 * Rocking Chair  
 A glider style chair and base platform that can adapt to being upholstered or be left as bare wood (work in progress)  
@@ -43,7 +43,7 @@ A non-electric shallow well pumping mechanism which can be operated manually or 
 A simple structural base for most types of shelters and tiny cabins    
 ![foundation base](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Structure%20Foundation/foundation1.png)    
 * [Structure Framing](https://github.com/cypnk/Cabin-Life/tree/master/Structure%20Framing)  
-A framing layout fit for various multi-purpose structures
+A framing layout fit for various multi-purpose structures (work in progress) 
 ![framing overview](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Structure%20Framing/framing1.png)  
 * Structure Roofing  
 A repeatable roof rafter arrangement for the multi-purpose structure and other smaller cabins (work in progress)  
