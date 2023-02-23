@@ -49,4 +49,6 @@ A framing layout fit for various multi-purpose structures (work in progress)
 A repeatable roof rafter arrangement for the multi-purpose structure and other smaller cabins (work in progress)  
 * [Cooler / Refrigerator](https://github.com/cypnk/Cabin-Life/tree/master/Cooler)  
 A cold storage system for smaller dwellings, using off-the-shelf components, suitable for use with solar power (work in progress)  
-![cooler preview](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cooler/cooler1.png)
+![cooler preview](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cooler/cooler1.png)  
+* Quick-release hook  
+A weight suspension mechanism intended to be constructed from standard framing lumber material (work in progress)  
