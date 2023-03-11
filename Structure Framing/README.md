@@ -3,3 +3,5 @@ This is a basic framing layout for a multi-purpose small structure, such as a sh
 
 Design in progress...
 ![framing overview](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Structure%20Framing/framing1.png)
+
+![framing extended overview](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Structure%20Framing/framing2.png)
