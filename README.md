@@ -45,8 +45,9 @@ A simple structural base for most types of shelters and tiny cabins
 * [Structure Framing](https://github.com/cypnk/Cabin-Life/tree/master/Structure%20Framing)  
 A framing layout fit for various multi-purpose structures (work in progress) 
 ![framing overview](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Structure%20Framing/framing1.png)  
-* Structure Roofing  
+* [Structure Roofing](https://github.com/cypnk/Cabin-Life/tree/master/Structure%20Roofing)  
 A repeatable roof rafter arrangement for the multi-purpose structure and other smaller cabins (work in progress)  
+![roofing overview](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Structure%20Roofing/roofing1.png)    
 * [Cooler / Refrigerator](https://github.com/cypnk/Cabin-Life/tree/master/Cooler)  
 A cold storage system for smaller dwellings, using off-the-shelf components, suitable for use with solar power (work in progress)  
 ![cooler preview](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cooler/cooler1.png)  
