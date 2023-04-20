@@ -18,7 +18,7 @@ A multi-function enclosure design for use as an outdoor terminal, kiosk, battery
 A durable, easily made, rechargeable battery system using the Zinc bromide chemistry (work in progress)  
 * Wheelbarrow  
 A simple hand cart for carrying material made from lumber and a few off-the-shelf parts (work in progress)  
-* Three-phase assembly  
+* [Three-phase Assembly](https://github.com/cypnk/Cabin-Life/tree/master/Three-phase%20Assembly)  
 A coil stator and magnet arragement which can be used as an electric generator or motor (work in progress)  
 * [Cargo Boat](https://github.com/cypnk/Cabin-Life/tree/master/Cargo%20Boat)  
 A small utility water craft with flat bottom and front loading ramp for use in inland waterways (work in progress)
