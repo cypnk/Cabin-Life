@@ -9,6 +9,8 @@ All parts may be scavanged or improvised as needed. CCA or Copper-Clad Aluminum 
 ***IMPORTANT: Electricity is dangerous and the author is not responsible for any damage to property, injuries, or worse, which may be caused by using any of the information presented here.***
 
 Supplies:
+* Neodymium bar type (recommended) or round magnets with axial North South polarity (flat face N or S)
+* * Ferrite (iron-ceramic) magnets may be used, but with lower performance
 * 0 To 4 AWG or similarly thick *stranded* copper wire (E.G. battery cable, welding cable etc...)
 * 12 To 14 AWG household-grade copper wiring
 * 5/8" (~16+mm) to 1" (~25+mm) smooth, round, shaft rod or wheelbarrow axle
@@ -18,7 +20,7 @@ Supplies:
 * 1/4" (~6.5mm) to 5/8" (~16mm) Allthread
 * Nuts matching the selected diameter allthread
 * Screws and nuts matching cable lug holes
-* HDPE sheets at least as thick as the cable 
+* HDPE (High-Density Polyethylene) sheets at least as thick as the cable
 * * Kitchen cutting boards may be used as HDPE material or marine grade plywood may be substituted if HDPE is not available
 * Short lengths of bus bar or roll of copper
 * * Copper flashing strips may be used if bus bar is not available
