@@ -48,11 +48,14 @@ Tools:
 
 The assembly is built in segment multiples of 3, to match the number of poles of the output/input. For a balance of power and ease of construction, 12 and 24 segment assemblies are recommended.
 
-Wire layout for a 12 segment segment 3 pole assembly:
+Wire layout for a 12 segment 3-pole assembly:
 ![stator wire layout](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/stator_wire_layout.png)
 
-Wire layout for a 24 segment segment 3 pole assembly. Note, the diameter of the assembly must increase to accommodate the greater number of components:
-![stator wire layout](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/stator_wire_layout_large.png)
+Wire layout for a 24 segment 3-pole assembly. Note, the diameter of the assembly must increase to accommodate the greater number of components:
+![larger stator wire layout](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/stator_wire_layout_large.png)
+
+The number of magnets used must match the number of wire segments:
+![magnet layout](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/magnet_layout.png)
 
 Work in progress...
 
