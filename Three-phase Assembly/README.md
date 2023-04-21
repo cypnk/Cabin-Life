@@ -18,7 +18,7 @@ Supplies:
 * Locking collars matching the shaft diameter
 * Crimped or soldered cable lugs, with throughholes
 * 1/4" (~6.5mm) to 5/8" (~16mm) Allthread
-* Nuts matching the selected diameter allthread
+* Nuts and washers matching the selected diameter allthread
 * Screws and nuts matching cable lug holes
 * HDPE (High-Density Polyethylene) sheets at least as thick as the cable
 * * Kitchen cutting boards may be used as HDPE material or marine grade plywood may be substituted if HDPE is not available
@@ -41,6 +41,7 @@ Tools:
 * Drawing compass or piece of string
 * Wrench(es) matching all selected nuts
 * Screwdriver(s) matching all selected screws
+* Gloves (recommended when handling allthread, which can be sharp)
 
 Work in progress...
 
