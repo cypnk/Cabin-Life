@@ -97,6 +97,15 @@ The thickness of the selected substrate, as mentioned in the supplies list, shou
 ![wire substrate protrusion](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_substrate_protrusion.png)
 ![wires installed closeup](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_substrate_installed_closeup.png)
 
+Once the position of the wire segments is satisfactory, mark and drill the lug hole locations on the substrate, the center hole for the shaft with adequate clearing for the locking collars, and the corner holes for the selected size allthread. Note: Because the stator will not be spinning, the exact position of the center hole is not absolutely critical, however, it is important that it be large enough to not touch any portion of the spinning shaft and locking collars during operation.
+![wire substrate drilled](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_substrate_drilled.png)
+
+Check if the wire segment lug holes are correctly alignged with the drilled holes after this step is complete.
+![wires on drilled substrate](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_substrate_drilled_placed.png)
+![reverse of drilled substrate](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_substrate_drilled_reverse.png)
+
+This concludes processing the stator substrate. The next step is connecting the wire segments into functional coils.
+
 Work in progress...
 
 
