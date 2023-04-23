@@ -82,6 +82,21 @@ Once the lugs are attached to each wire segment, they are laid out on the substr
 ![wire lugs layout](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_lug_layout.png)
 ![flat wire lug layout](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_lug_layout_flat.png)
 
+One of the selected substrate sheets, either HDPE (recommended) or marine-grade plywood, is to be cut to the size of the wire segments up to the lug tolerances. The cut tolerances should be measured after wire lug attachment and calculations should not be relied upon alone. The number of cuts is equal to the number of wire segments.
+![wire substrate](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_substrate.png)
+
+It is important to make the cuts such that the lug holes are given adequate space to ensure good attachment, but leaving enough material removed to clear the lug body itself.
+![wire substrate cutouts](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_substrate_cutouts.png)
+
+The lug holes should all be on one side of the substrate and the other side should be clear.
+![wire substrate installed](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_substrate_installed.png)
+Other side:
+![wire substrate reverse](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_substrate_reverse.png)
+
+The thickness of the selected substrate, as mentioned in the supplies list, should be at least as thick as the wire, such that once the cutouts are made, only a small portion of the wire sheath should protrude above and below the sheet on both sides.
+![wire substrate protrusion](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_substrate_protrusion.png)
+![wires installed closeup](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_substrate_installed_closeup.png)
+
 Work in progress...
 
 
