@@ -80,6 +80,7 @@ Attach lugs to either end of the cut wire segments such that they are aligned on
 
 Once the lugs are attached to each wire segment, they are laid out on the substrate with the same side facing up. It is important that only one side be facing outward to prevent the magnets from touching any part of the assembly while spinning. Note: There is adequate spacing between the bottom lugs to prevent shorting.
 ![wire lugs layout](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_lug_layout.png)
+![flat wire lug layout](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_lug_layout_flat.png)
 
 Work in progress...
 
