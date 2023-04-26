@@ -107,6 +107,14 @@ Check if the wire segment lug holes are correctly aligned with the drilled holes
 
 This concludes processing the stator substrate. The next step is connecting the wire segments into functional coils.
 
+The stators coils are wired in this example as three(3) sets, matching the number of phases in the assembly, of four(4) in this example of 12 wire segments. For a stator with a larger number of segments, there will be more segments in a set, but should still have three total sets to match the number of poles in the assembly. To simplify wiring, select one set and completely wire it before moving on to the adjacent set.
+![wire stator set](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_stator_set.png)
+
+Notice, one pair in the set is exposed to the North poles of the magnets, while the other pair is exposed to the South poles. This means the current will flow in opposite directions in each pair in the sets as the magnet gets close to the wire segments.
+![magnet stator overlay](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/magnet_stator_overlay.png)
+
+Wiring in progress...
+
 ### Rotor wheel
 ***IMPORTANT: Neodymium magnets are dangerous when brought together in close proximity. They may pull toward each other suddenly and catch fingers or clothing in between. Crashing magnets may splinter, sending sparks and fragments, which may damage eyesight. Builder caution is advised.***
 
