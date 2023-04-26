@@ -49,6 +49,7 @@ Tools:
 
 ***IMPORTANT: Avoid leaving dissimilar metals in contact with each other to reduce the risk of galvanic corrosion.*** Only use copper wire with copper connectors or metals specially coated to prevent galvanic corrosion while allowing good electrical contact. Some connections may need to be soldered to prevent corrosion.
 
+### Stator coils
 The assembly is built in segment multiples of 3, to match the number of poles of the output/input. For a balance of power and ease of construction, assemblies between 12 and 24 segments are recommended. Increasing the number of segments will add to the output power in generator-mode or torque in motor-mode, however there is a practical upper limit. Builder discretion is advised.
 
 The magnets should as wide or slightly wider than the selected wire gauge.
@@ -100,11 +101,41 @@ The thickness of the selected substrate, as mentioned in the supplies list, shou
 Once the position of the wire segments is satisfactory, mark and drill the lug hole locations on the substrate, the center hole for the shaft with adequate clearing for the locking collars, and the corner holes for the selected size allthread. Note: Because the stator will not be spinning, the exact position of the center hole is not absolutely critical, however, it is important that it be large enough to not touch any portion of the spinning shaft and locking collars during operation.
 ![wire substrate drilled](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_substrate_drilled.png)
 
-Check if the wire segment lug holes are correctly alignged with the drilled holes after this step is complete.
+Check if the wire segment lug holes are correctly aligned with the drilled holes after this step is complete.
 ![wires on drilled substrate](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_substrate_drilled_placed.png)
 ![reverse of drilled substrate](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_substrate_drilled_reverse.png)
 
 This concludes processing the stator substrate. The next step is connecting the wire segments into functional coils.
+
+### Rotor wheel
+***IMPORTANT: Neodymium magnets are dangerous when brought together in close proximity. They may pull toward each other suddenly and catch fingers or clothing in between. Crashing magnets may splinter, sending sparks and fragments, which may damage eyesight. Builder caution is advised.***
+
+The rotor wheel substrate can be made of the same material as the coil substrate, however HDPE is recommended due to its dimensional stability in most environmental conditions. Unlike the coil substrate, cutting the rotor wheel requires measurement precision and all cut segments should be identical to avoid excess vibrations during operation. HDPE and similar plastics are not well suited for most kinds of adhesives. While it is possible to weld thermoplastics, the process of attaching the magnets to the rotor wheel in this example involves folded metal clips.
+
+The magnet slots are cut in equal size and the quantity of holes must match the wire segments. The center bore is the same diameter as the selected shaft.
+![rotor magnet cutouts](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/rotor_magnet_cutouts.png)
+
+This example includes a keyway cut into the wheel at the top position in order to provide better grip on the shaft. Plastics such as HDPE offer little friction and so a keyway is strongly recommended.
+![rotor keyway cutout](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/rotor_keyway_cutout.png)
+
+***IMPORTANT: One magnet at a time should be completely installed and the retaining clips folded *before* moving on to the next magnet.***
+
+To allow for the insertion of the retaining clips, additional space is left above and below the magnet. The following is for illustrative purposes *only*.
+![rotor magnet cutout spacing](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/rotor_magnet_cutout_spacing.png)
+
+The magnets are retained with a foldable metal clip, which may be cut from bus bar, or copper sheet, or other soft metal strip. *Note:* The center of the clip must remain attached while only the protruding sections are cut down the middle on either side of the wheel.
+![rotor magnet retaining clip](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/rotor_magnet_retaining_clip.png)
+
+Once the magnet is placed in the cutout, only the slit ends should protrude.
+![rotor magnet installed](https://github.com/cypnk/Cabin-Life/blob/master/Three-phase%20Assembly/rotor_magnet_installed.png)
+
+***The following is for illustration purposes only.*** Once again, completely install and fold the clips before moving on to the next magnet. Note, the magnets are installed in alternating North-South pattern.
+![rotor magnets with clip retainers](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/rotor_magnets_with_retainers.png)
+
+***IMPORTANT: Do not hammer the clips. Only use bending force as hammering may cause the magnet to chip***.
+
+The retaining clips are folded in one-up, one-down fashion on both sides such that the magnet is prevented from moving or twisting within the cutout during operation. This concludes the rotor wheel construction.
+![rotor magnet retainers folded](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/rotor_magnet_retainers_folded.png)
 
 Work in progress...
 
