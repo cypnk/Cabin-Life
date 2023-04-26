@@ -113,6 +113,17 @@ The stators coils are wired in this example as three(3) sets, matching the numbe
 Notice, one pair in the set is exposed to the North poles of the magnets, while the other pair is exposed to the South poles. This means the current will flow in opposite directions in each pair in the sets as the magnet gets close to the wire segments.
 ![magnet stator overlay](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/magnet_stator_overlay.png)
 
+It is recommended that connecting sections be curved, without any straight lines within the influence of the magnetic field, in order to reduce losses and accidental magnetic influence on the connecting pairs. Note, only a small section of the wire should be stripped to expose the copper conductor.
+![short wire bridge](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_bridge_short.png)
+
+To bridge the inner segments, short lengths of household wiring, as in the supplies list of *12 AWG* to *14 AWG*, can be bent to connect the bottom segments.
+
+The connected segments are following the direction of current, and so the inner end of the North facing wire segment is connected to the inner end of the South facing segment.
+![stator short bridge](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/stator_short_bridge.png)
+
+The outer edge of the South facing segment is wired via a longer version of the wire bridge to the outer end of the other North facing wire of the segment. This completes a single set of the three phases. 
+![stator bridge set](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/stator_bridge_set.png)
+
 Wiring in progress...
 
 ### Rotor wheel
