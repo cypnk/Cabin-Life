@@ -54,4 +54,6 @@ A cold storage system for smaller dwellings, using off-the-shelf components, sui
 ![cooler preview](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Cooler/cooler1.png)  
 * [Quick-release hook](https://github.com/cypnk/Cabin-Life/tree/master/Quick-Release%20Hook)  
 A weight suspension mechanism intended to be constructed from standard framing lumber material (work in progress)  
-![hook preview](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Quick-Release%20Hook/hook-preview.png)
+![hook preview](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Quick-Release%20Hook/hook-preview.png)  
+* Directional WiFi Antenna  
+An improvised point-to-point antenna for remote devices and similar applications (work in progress)
