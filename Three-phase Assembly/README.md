@@ -113,16 +113,19 @@ The stators coils are wired in this example as three(3) sets, matching the numbe
 Notice, one pair in the set is exposed to the North poles of the magnets, while the other pair is exposed to the South poles. This means the current will flow in opposite directions in each pair in the sets as the magnet gets close to the wire segments.
 ![magnet stator overlay](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/magnet_stator_overlay.png)
 
-It is recommended that connecting sections be curved, without any straight lines within the influence of the magnetic field, in order to reduce losses and accidental magnetic influence on the connecting pairs. Note, only a small section of the wire should be stripped to expose the copper conductor.
+To bridge the inner segments, short lengths of household wiring, as in the supplies list of *12 AWG* to *14 AWG*, can be bent to connect the bottom segments. Notice, only a small section of the wire should be stripped to expose the copper conductor before the ends are bent into a loop. 
 ![short wire bridge](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_bridge_short.png)
 
-To bridge the inner segments, short lengths of household wiring, as in the supplies list of *12 AWG* to *14 AWG*, can be bent to connect the bottom segments.
+***IMPORTANT: Avoid straight runs of connecting wire within the influence of the magnetic field in order to reduce losses and accidentally induced current on the connecting pairs. Also avoid getting too near the center hole of the wire substrate or going past the outer edge.***
 
-The connected segments are following the direction of current, and so the inner end of the North facing wire segment is connected to the inner end of the South facing segment.
+The connected segments are following the direction of current, and so the inner end of the North pole facing wire segment is connected to the inner end of the South pole facing segment.
 ![stator short bridge](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/stator_short_bridge.png)
 
-The outer edge of the South facing segment is wired via a longer version of the wire bridge to the outer end of the other North facing wire of the segment. This completes a single set of the three phases. 
+The outer end of the South pole facing segment is connected, via a longer version of the wire bridge, to the outer end of the other North pole facing wire segment. This completes a single set of the three phases.
 ![stator bridge set](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/stator_bridge_set.png)
+
+Notice, the wire bridge pattern is repeated to the other sets. Once a satisfactory curve and length is obtained, it is recommended the pattern be copied to the other pairs. 
+![wire bridge pattern](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_bridge_pattern.png)
 
 Wiring in progress...
 
