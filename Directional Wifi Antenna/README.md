@@ -38,7 +38,10 @@ The 14 AWG wire is bent to give 6mm "legs" to the center of the radiator squares
 
 This creates a single driven element segment. 
 
-Two of the segments are separated vertically 30mm apart at the center, just as their individual squares. The measurement for the separation can be made at middle joining wire. Another length of 30mm wire is cut and soldered at the middle. This completes the driven elements.
+Two of the segments are separated vertically 30mm apart at the center, just as their individual squares. The measurement for the separation can be made at middle joining wire. 
+![segment pair](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Directional%20Wifi%20Antenna/segment_pair.png)
+
+Another length of 30mm wire is cut and soldered at the middle. This completes the driven elements.
 ![driven elements](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Directional%20Wifi%20Antenna/driven_elements.png)
 
 Flipped over to the smooth side, the driven elements are centered vertically and horizontally on the backplane.
