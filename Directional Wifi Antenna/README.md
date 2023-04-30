@@ -1,7 +1,7 @@
 # Directional WiFi Antenna
 For remote, point-to-point links, this antenna may be built from household wiring, roof flashing, and other scavenged sources of material. 
 
-The antenna is tuned to both 2.4GHz and 5GHz and the estimated gain of is ~5dB, depending on the selected materials and build quality. Housing the antenna in a waterproof enclosure, of a material transparent to radio signals, is strongly recommended if used outdoors. Based on the suggested build materials, the overall size of the antenna is 60mm wide, 80mm tall, and approximately 8mm deep, excluding the feed cable.
+The antenna is tuned to both 2.4GHz and 5GHz and the estimated gain is ~5dB, depending on the selected materials and build quality. Housing the antenna in a waterproof enclosure, of a material transparent to radio signals, is strongly recommended if used outdoors. Based on the suggested build materials, the overall size of the antenna is 60mm wide, 80mm tall, and approximately 8mm deep, excluding the feed cable.
 
 Overall antenna profile in front and side view:
 ![antenna profile](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Directional%20Wifi%20Antenna/antenna_profile.png)
