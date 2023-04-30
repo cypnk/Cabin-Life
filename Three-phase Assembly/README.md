@@ -127,7 +127,24 @@ The outer end of the South pole facing segment is connected, via a longer versio
 Notice, the wire bridge pattern is repeated to the other sets. Once a satisfactory curve and length is obtained, it is recommended the pattern be copied to the other pairs. 
 ![wire bridge pattern](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_bridge_pattern.png)
 
-Wiring in progress...
+The wire colors in this example are not critical and they are shown as being different to avoid confusion. The actual build process may use a single color wire, however using colors meant for specific use, such as green for ground or Earth, is not recommended. This convention may be discarded depending on the resources available to the builder.
+
+It is recommended the ends be bent down such that their hooks are as close to the substrate as possible. There is an upper limit to the bend radius for the selected wire gauge. This reduced clearance will be important if the assembly is stacked with another magnet rotor behind this one.
+![wire coil hooks](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_coil_hooks.png)
+
+The wires should be stacked one on top of each other as they make their way around the stator for the same reason. The wire sheaths may be glued together to reduce the likelihood of movement during operation.
+![wire stack clearence](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_stack_clearance.png)
+
+Once the wire bend and cut pattern is satisfactory, they may be attached via cross bolts and washers of conductive material. Note: It is important to select washers and nuts which will not cause galvanic corrosion when in contact with the copper lugs and wires. In this example, plated electrical screws and nuts are used along with copper washers.
+![wire nuts](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_nuts.png)
+
+The selected screws are of the Phillips head type, however the actual fastener type is not as important as the material it is made of and the clearance to the surface. 
+![wire bolts](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_bolts.png)
+
+Just as with the wires, the bolt head should not protrude too far to avoid contact with the magnet rotor during operation.
+![wire bolt clearance](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_bolt_clearance.png)
+
+This concludes the build process of the stator.
 
 ### Rotor wheel
 ***IMPORTANT: Neodymium magnets are dangerous when brought together in close proximity. They may pull toward each other suddenly and catch fingers or clothing in between. Crashing magnets may splinter, sending sparks and fragments, which may damage eyesight. Builder caution is advised.***
