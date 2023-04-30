@@ -142,7 +142,7 @@ The selected screws are of the Phillips head type, however the actual fastener t
 ![wire bolts](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_bolts.png)
 
 Just as with the wires, the bolt head should not protrude too far to avoid contact with the magnet rotor during operation.
-![wire bolt clearance](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_bolt_clearance.png)
+![wire bolt clearance](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/wire_bolt_clearence.png)
 
 This concludes the build process of the stator.
 
