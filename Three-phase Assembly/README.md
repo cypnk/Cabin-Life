@@ -166,7 +166,7 @@ The magnets are retained with a foldable metal clip, which may be cut from bus b
 ![rotor magnet retaining clip](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/rotor_magnet_retaining_clip.png)
 
 Once the magnet is placed in the cutout, only the slit ends should protrude.
-![rotor magnet installed](https://github.com/cypnk/Cabin-Life/blob/master/Three-phase%20Assembly/rotor_magnet_installed.png)
+![rotor magnet installed](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/rotor_magnet_installed.png)
 
 ***The following is for illustration purposes only.*** Once again, completely install and fold the clips before moving on to the next magnet. Note, the magnets are installed in alternating North-South pattern.
 ![rotor magnets with clip retainers](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Three-phase%20Assembly/rotor_magnets_with_retainers.png)
