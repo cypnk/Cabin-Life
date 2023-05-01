@@ -58,3 +58,6 @@ A weight suspension mechanism intended to be constructed from standard framing l
 * [Directional WiFi Antenna](https://github.com/cypnk/Cabin-Life/tree/master/Directional%20Wifi%20Antenna)  
 An improvised point-to-point antenna for remote devices and similar applications  
 ![antenna driven elements](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Directional%20Wifi%20Antenna/antenna_profile.png)  
+* Venturi Vent and Chimney Cap  
+A passive draw system for venting or capping a stove flue (work in progress)  
+
