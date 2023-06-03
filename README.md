@@ -63,6 +63,7 @@ A passive draw system for venting or capping a stove flue (work in progress)
 * Compact Wood Stove  
 A small, semi-portable, wood burning stove for shelters and cabins (work in progress)  
 * [Fuel Lamp](https://github.com/cypnk/Cabin-Life/tree/master/Fuel%20Lamp)  
-A basic fuel-burning lamp for illumination and minimal heating purposes (work in progress)
+A basic fuel-burning lamp for illumination and minimal heating purposes (work in progress)  
+![fuel lamp](https://raw.githubusercontent.com/cypnk/Cabin-Life/master/Fuel%20Lamp/wick_control_tube.png)
 
 
