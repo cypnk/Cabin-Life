@@ -22,7 +22,14 @@ Premade Zinc bromide can be purchased, however it may not be readily available i
 * Graphite foil sheets (positive electrode) without binders or inserts. Available as gaskets or seals for high-temperature applications
   * A carbon rod electrode can be substituted, if available 
 
-### Final cell components:
+### Modular glass cell components:
+* Pillar candle glass vial (also called "7-day candle" or "prayer candle"), minimum 1" diameter and any practical height
+* Zinc square cut to slightly less than vial diameter with extended tabs (negative electrode) and zinc strip (contact to positive electrode)
+* Carbon foam (negative electrode)
+* Activated carbon granules (positive electrode surface area enhancer)
+* Bromine-resistant polyurethane, or marine-grade silicone, or "Plasti Dip" or similar ASTM rated compound
+
+### Large-capacity cell components:
 * 4" (locales outside the U.S. may use equivalent sizes) PVC schedule-40, or SDR 35, or similar drainage pipes
 * PVC cement (with primer or primer combination recommended)
 * Threaded end caps and couplings
